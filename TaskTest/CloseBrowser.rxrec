@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="147f7135-190a-4a59-804d-fe80db3b6667"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="TaskTest">
+	</codegen>
+	<variables>
+		<var
+		id="76af3d98-bca9-490c-bf19-0c128d17965d"
+		name="NewVariable">
+			2s
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="1000ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="4db52073-bc60-4fcb-ba76-95187227350b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="GracePeriod"
+				variable="NewVariable">
+				</binding>
+			</bindings>
+			<info
+			id="4ead135a-6447-411f-9465-ad67017902fc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='firefox']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="8123105b-fa35-46e2-8c02-2f0410a0693c"
+	name="TaskTestRepository"
+	relativepath="TaskTestRepository.rxrep">
+		<codegen
+		classname="TaskTestRepository"
+		namespace="TaskTest">
+		</codegen>
+		<rootfolder
+		id="4033e3f9-2b94-4b0a-948a-c0a31784628b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
