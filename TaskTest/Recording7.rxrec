@@ -2678,7 +2678,6 @@ LnJHTqTViihRs7kzquUeWyK2o/8AHlJ+H8xWLW1qP/HlJ+H8xWKaGQj/2Q==
 					/dom[@domain='www.hepsiburada.com']//div[#'container']/div/div/div[3]/div[6]/div/div/div/div/div[2]/div[1]/?/?/a[@title='Hepsiburada']/svg
 				</path>
 				<robustPath>
-					/dom[@domain='www.hepsiburada.com']//div[#'container']//svg
 				</robustPath>
 			</info>
 			<helperscreenshot

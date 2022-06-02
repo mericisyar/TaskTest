@@ -427,30 +427,6 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="0577a471-4f8b-4295-9fb7-abf68b5377a3">
-			</testcontainer>
-			<testcontainer
-			id="3bfcddf0-ff18-4622-9663-1b7ea567df11">
-			</testcontainer>
-			<testcontainer
-			id="4f30a020-ed20-45a4-9034-a2c60350dc33">
-			</testcontainer>
-			<testcontainer
-			id="716b4ab1-a57d-46ca-902e-2ef7562be63e">
-			</testcontainer>
-			<testcontainer
-			id="a75b6992-56ad-4294-ae79-2895f9e1d16b">
-			</testcontainer>
-			<testcontainer
-			id="a8daf21e-4ea1-403b-8d06-3ed89db5f60a">
-			</testcontainer>
-			<testcontainer
-			id="b4ba5175-7a9f-4bd4-8cd6-74d349f3b738">
-			</testcontainer>
-			<testcontainer
-			id="e7be467f-231a-431a-8435-de5a7c528845">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
