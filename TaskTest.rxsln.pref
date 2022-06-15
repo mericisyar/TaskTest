@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{4438B603-323A-44D5-ACA8-38E00174B543}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution TaskTest[TaskTest[Recording7.rxrec[]]]]&#xD;&#xA;Solution TaskTest\TaskTest\TaskTest.rxtst&#xD;&#xA;Solution TaskTest\TaskTest\Recording1.rxrec" />
+  <StartupProject value="{4438B603-323A-44D5-ACA8-38E00174B543}" />
+</Properties>

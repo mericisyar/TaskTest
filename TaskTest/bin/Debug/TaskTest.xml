@@ -1,0 +1,1793 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskTest</name>
+    </assembly>
+    <members>
+        <member name="T:TaskTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TaskTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the TaskTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TaskTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TaskTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TaskTest.CloseBrowser.NewVariable">
+            <summary>
+            Gets or sets the value of variable NewVariable.
+            </summary>
+        </member>
+        <member name="T:TaskTest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TaskTest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the TaskTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TaskTest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskTest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskTest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskTest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TaskTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TaskTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:TaskTest.Recording1.repo">
+            <summary>
+            Holds an instance of the TaskTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TaskTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TaskTest.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:TaskTest.Recording2.repo">
+            <summary>
+            Holds an instance of the TaskTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskTest.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskTest.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TaskTest.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TaskTest.Recording3">
+             <summary>
+            The Recording3 recording.
+             </summary>
+        </member>
+        <member name="F:TaskTest.Recording3.repo">
+            <summary>
+            Holds an instance of the TaskTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskTest.Recording3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskTest.Recording3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TaskTest.Recording3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TaskTest.Recording4">
+             <summary>
+            The Recording4 recording.
+             </summary>
+        </member>
+        <member name="F:TaskTest.Recording4.repo">
+            <summary>
+            Holds an instance of the TaskTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskTest.Recording4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskTest.Recording4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TaskTest.Recording4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TaskTest.Recording5">
+             <summary>
+            The Recording5 recording.
+             </summary>
+        </member>
+        <member name="F:TaskTest.Recording5.repo">
+            <summary>
+            Holds an instance of the TaskTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording5.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording5.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskTest.Recording5.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording5.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskTest.Recording5.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TaskTest.Recording5.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TaskTest.Recording6">
+             <summary>
+            The Recording6 recording.
+             </summary>
+        </member>
+        <member name="F:TaskTest.Recording6.repo">
+            <summary>
+            Holds an instance of the TaskTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording6.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording6.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskTest.Recording6.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording6.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskTest.Recording6.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TaskTest.Recording6.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TaskTest.Recording7">
+             <summary>
+            The Recording7 recording.
+             </summary>
+        </member>
+        <member name="F:TaskTest.Recording7.repo">
+            <summary>
+            Holds an instance of the TaskTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording7.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording7.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskTest.Recording7.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskTest.Recording7.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskTest.Recording7.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TaskTest.Recording7.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepository">
+            <summary>
+            The class representing the TaskTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TaskTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş">
+            <summary>
+            The TuerkiyeninEnBueyuekOnlineAlışveriş folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş1">
+            <summary>
+            The TuerkiyeninEnBueyuekOnlineAlışveriş1 folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.OturumAcınGoogleHesapları">
+            <summary>
+            The OturumAcınGoogleHesapları folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.UEcretsizKayıtOlunOnlineAlışveriş">
+            <summary>
+            The UEcretsizKayıtOlunOnlineAlışveriş folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.Sepetim">
+            <summary>
+            The Sepetim folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.ListemHepsiburada">
+            <summary>
+            The ListemHepsiburada folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.DarkSentAhşapKuşEviYuvası14x13x17cm">
+            <summary>
+            The DarkSentAhşapKuşEviYuvası14x13x17cm folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue">
+            <summary>
+            The ArdeppoMuhabbetKuşYuvasıSuerguelue folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.SunucuBulunamadı">
+            <summary>
+            The SunucuBulunamadı folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.TeslimatBilgileriMozillaFirefox">
+            <summary>
+            The TeslimatBilgileriMozillaFirefox folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepository.SepetimMozillaFirefox">
+            <summary>
+            The SepetimMozillaFirefox folder.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.TxtEmail">
+            <summary>
+            The TxtEmail item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.TxtEmailInfo">
+            <summary>
+            The TxtEmail item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.BtnSignUpSubmit">
+            <summary>
+            The BtnSignUpSubmit item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.BtnSignUpSubmitInfo">
+            <summary>
+            The BtnSignUpSubmit item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.DivTagGoogleIleGirişYap">
+            <summary>
+            The DivTagGoogleIleGirişYap item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.DivTagGoogleIleGirişYapInfo">
+            <summary>
+            The DivTagGoogleIleGirişYap item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.DivTagFacebookIleGirişYap">
+            <summary>
+            The DivTagFacebookIleGirişYap item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.DivTagFacebookIleGirişYapInfo">
+            <summary>
+            The DivTagFacebookIleGirişYap item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.DivTagAppleIleGirişYap">
+            <summary>
+            The DivTagAppleIleGirişYap item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.DivTagAppleIleGirişYapInfo">
+            <summary>
+            The DivTagAppleIleGirişYap item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.TxtUserName">
+            <summary>
+            The TxtUserName item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.TxtUserNameInfo">
+            <summary>
+            The TxtUserName item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.BtnLogin">
+            <summary>
+            The BtnLogin item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.BtnLoginInfo">
+            <summary>
+            The BtnLogin item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.BtnEmailSelect">
+            <summary>
+            The BtnEmailSelect item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.BtnEmailSelectInfo">
+            <summary>
+            The BtnEmailSelect item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.TxtPassword">
+            <summary>
+            The TxtPassword item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.TxtPasswordInfo">
+            <summary>
+            The TxtPassword item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ApplicationUnderTestAppFolder.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1">
+            <summary>
+            The DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1 folder.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder">
+            <summary>
+            The DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals">
+            <summary>
+            The DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFalsInfo">
+            <summary>
+            The DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomeSvgTag">
+            <summary>
+            The SomeSvgTag item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomeSvgTagInfo">
+            <summary>
+            The SomeSvgTag item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.DivTag1qzyrDtuo5Y1fZvzzhrn3">
+            <summary>
+            The DivTag1qzyrDtuo5Y1fZvzzhrn3 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.DivTag1qzyrDtuo5Y1fZvzzhrn3Info">
+            <summary>
+            The DivTag1qzyrDtuo5Y1fZvzzhrn3 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.KişiselVerilerinizKapsamındaIşlenmekt">
+            <summary>
+            The KişiselVerilerinizKapsamındaIşlenmekt item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.KişiselVerilerinizKapsamındaIşlenmektInfo">
+            <summary>
+            The KişiselVerilerinizKapsamındaIşlenmekt item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.StrongTagAydınlatmaMetni">
+            <summary>
+            The StrongTagAydınlatmaMetni item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.StrongTagAydınlatmaMetniInfo">
+            <summary>
+            The StrongTagAydınlatmaMetni item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.StrongTagRızaMetni">
+            <summary>
+            The StrongTagRızaMetni item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.StrongTagRızaMetniInfo">
+            <summary>
+            The StrongTagRızaMetni item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.StrongTagCerezPolitikası">
+            <summary>
+            The StrongTagCerezPolitikası item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.StrongTagCerezPolitikasıInfo">
+            <summary>
+            The StrongTagCerezPolitikası item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.StrongTagUEyelikSoezleşmesi">
+            <summary>
+            The StrongTagUEyelikSoezleşmesi item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.StrongTagUEyelikSoezleşmesiInfo">
+            <summary>
+            The StrongTagUEyelikSoezleşmesi item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.DivTagEPostaAdresiIleUeyeOl">
+            <summary>
+            The DivTagEPostaAdresiIleUeyeOl item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.DivTagEPostaAdresiIleUeyeOlInfo">
+            <summary>
+            The DivTagEPostaAdresiIleUeyeOl item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.CerezPolitikası">
+            <summary>
+            The CerezPolitikası item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.CerezPolitikasıInfo">
+            <summary>
+            The CerezPolitikası item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomePathTag2">
+            <summary>
+            The SomePathTag2 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomePathTag2Info">
+            <summary>
+            The SomePathTag2 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.KişiselVerilerinIşlenmesineIlişkinRı">
+            <summary>
+            The KişiselVerilerinIşlenmesineIlişkinRı item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.KişiselVerilerinIşlenmesineIlişkinRıInfo">
+            <summary>
+            The KişiselVerilerinIşlenmesineIlişkinRı item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomePathTag1">
+            <summary>
+            The SomePathTag1 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomePathTag1Info">
+            <summary>
+            The SomePathTag1 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomePathTag">
+            <summary>
+            The SomePathTag item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomePathTagInfo">
+            <summary>
+            The SomePathTag item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.UEyelikSoezleşmesi">
+            <summary>
+            The UEyelikSoezleşmesi item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.UEyelikSoezleşmesiInfo">
+            <summary>
+            The UEyelikSoezleşmesi item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomeSvgTag1">
+            <summary>
+            The SomeSvgTag1 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SomeSvgTag1Info">
+            <summary>
+            The SomeSvgTag1 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SosyalHesapIleGirişYap">
+            <summary>
+            The SosyalHesapIleGirişYap item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.SosyalHesapIleGirişYapInfo">
+            <summary>
+            The SosyalHesapIleGirişYap item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziGirmelisiniz">
+            <summary>
+            The EPostaAdresiniziGirmelisiniz item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziGirmelisinizInfo">
+            <summary>
+            The EPostaAdresiniziGirmelisiniz item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziGirmelisiniz1">
+            <summary>
+            The EPostaAdresiniziGirmelisiniz1 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziGirmelisiniz1Info">
+            <summary>
+            The EPostaAdresiniziGirmelisiniz1 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziVeyaTelefonNumaranı">
+            <summary>
+            The EPostaAdresiniziVeyaTelefonNumaranı item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziVeyaTelefonNumaranıInfo">
+            <summary>
+            The EPostaAdresiniziVeyaTelefonNumaranı item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziGirmelisiniz2">
+            <summary>
+            The EPostaAdresiniziGirmelisiniz2 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziGirmelisiniz2Info">
+            <summary>
+            The EPostaAdresiniziGirmelisiniz2 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziVeyaTelefonNumaranı1">
+            <summary>
+            The EPostaAdresiniziVeyaTelefonNumaranı1 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.EPostaAdresiniziVeyaTelefonNumaranı1Info">
+            <summary>
+            The EPostaAdresiniziVeyaTelefonNumaranı1 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.TxtUserName">
+            <summary>
+            The TxtUserName item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.TxtUserNameInfo">
+            <summary>
+            The TxtUserName item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.HttpsGirisHepsiburadaComReturnUrlE">
+            <summary>
+            The HttpsGirisHepsiburadaComReturnUrlE item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1Folder.HttpsGirisHepsiburadaComReturnUrlEInfo">
+            <summary>
+            The HttpsGirisHepsiburadaComReturnUrlE item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder">
+            <summary>
+            The TuerkiyeninEnBueyuekOnlineAlışverişAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TuerkiyeninEnBueyuekOnlineAlışveriş  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SomeSvgTag">
+            <summary>
+            The SomeSvgTag item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SomeSvgTagInfo">
+            <summary>
+            The SomeSvgTag item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.DivTagARA">
+            <summary>
+            The DivTagARA item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.DivTagARAInfo">
+            <summary>
+            The DivTagARA item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SomeIFrameTag">
+            <summary>
+            The SomeIFrameTag item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SomeIFrameTagInfo">
+            <summary>
+            The SomeIFrameTag item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.GuNMoriaProductCardZzjoHSfpu8brpqh5">
+            <summary>
+            The GuNMoriaProductCardZzjoHSfpu8brpqh5 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.GuNMoriaProductCardZzjoHSfpu8brpqh5Info">
+            <summary>
+            The GuNMoriaProductCardZzjoHSfpu8brpqh5 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.AddToCart">
+            <summary>
+            The AddToCart item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.AddToCartInfo">
+            <summary>
+            The AddToCart item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.HttpsCheckoutHepsiburadaComSepetim">
+            <summary>
+            The HttpsCheckoutHepsiburadaComSepetim item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.HttpsCheckoutHepsiburadaComSepetimInfo">
+            <summary>
+            The HttpsCheckoutHepsiburadaComSepetim item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SfTopLinksE4mKs">
+            <summary>
+            The SfTopLinksE4mKs item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SfTopLinksE4mKsInfo">
+            <summary>
+            The SfTopLinksE4mKs item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.ProductName">
+            <summary>
+            The ProductName item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.ProductNameInfo">
+            <summary>
+            The ProductName item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.CustomerAccountLike2wPzH">
+            <summary>
+            The CustomerAccountLike2wPzH item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.CustomerAccountLike2wPzHInfo">
+            <summary>
+            The CustomerAccountLike2wPzH item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.MyAccount">
+            <summary>
+            The MyAccount item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.MyAccountInfo">
+            <summary>
+            The MyAccount item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.Beğendiklerim">
+            <summary>
+            The Beğendiklerim item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.BeğendiklerimInfo">
+            <summary>
+            The Beğendiklerim item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.BreadcrumbsDesktopWidget">
+            <summary>
+            The BreadcrumbsDesktopWidget item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.BreadcrumbsDesktopWidgetInfo">
+            <summary>
+            The BreadcrumbsDesktopWidget item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.ShoppingCart">
+            <summary>
+            The ShoppingCart item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.ShoppingCartInfo">
+            <summary>
+            The ShoppingCart item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.Hesabım">
+            <summary>
+            The Hesabım item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.HesabımInfo">
+            <summary>
+            The Hesabım item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.CıkışYap">
+            <summary>
+            The CıkışYap item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.CıkışYapInfo">
+            <summary>
+            The CıkışYap item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.Login">
+            <summary>
+            The Login item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.LoginInfo">
+            <summary>
+            The Login item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SomeSvgTag1">
+            <summary>
+            The SomeSvgTag1 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SomeSvgTag1Info">
+            <summary>
+            The SomeSvgTag1 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.HttpsTpcGooglesyndicationComSimgad">
+            <summary>
+            The HttpsTpcGooglesyndicationComSimgad item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.HttpsTpcGooglesyndicationComSimgadInfo">
+            <summary>
+            The HttpsTpcGooglesyndicationComSimgad item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SfOldHeaderEfZwOcqyx8rd3l1YQFzg">
+            <summary>
+            The SfOldHeaderEfZwOcqyx8rd3l1YQFzg item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışverişAppFolder.SfOldHeaderEfZwOcqyx8rd3l1YQFzgInfo">
+            <summary>
+            The SfOldHeaderEfZwOcqyx8rd3l1YQFzg item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder">
+            <summary>
+            The TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TuerkiyeninEnBueyuekOnlineAlışveriş1  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder.Separator">
+            <summary>
+            The Separator item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder.SeparatorInfo">
+            <summary>
+            The Separator item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder.Geri">
+            <summary>
+            The Geri item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder.GeriInfo">
+            <summary>
+            The Geri item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder.GoogleIleAramaYapınVeyaAdresYazın">
+            <summary>
+            The GoogleIleAramaYapınVeyaAdresYazın item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TuerkiyeninEnBueyuekOnlineAlışveriş1AppFolder.GoogleIleAramaYapınVeyaAdresYazınInfo">
+            <summary>
+            The GoogleIleAramaYapınVeyaAdresYazın item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.OturumAcınGoogleHesaplarıAppFolder">
+            <summary>
+            The OturumAcınGoogleHesaplarıAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.OturumAcınGoogleHesaplarıAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new OturumAcınGoogleHesapları  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.OturumAcınGoogleHesaplarıAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.OturumAcınGoogleHesaplarıAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.OturumAcınGoogleHesaplarıAppFolder.OturumAc">
+            <summary>
+            The OturumAc item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.OturumAcınGoogleHesaplarıAppFolder.OturumAcInfo">
+            <summary>
+            The OturumAc item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.UEcretsizKayıtOlunOnlineAlışverişAppFolder">
+            <summary>
+            The UEcretsizKayıtOlunOnlineAlışverişAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.UEcretsizKayıtOlunOnlineAlışverişAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new UEcretsizKayıtOlunOnlineAlışveriş  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.UEcretsizKayıtOlunOnlineAlışverişAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.UEcretsizKayıtOlunOnlineAlışverişAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder">
+            <summary>
+            The SepetimAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Sepetim  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.ProductIncrease3SpEx">
+            <summary>
+            The ProductIncrease3SpEx item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.ProductIncrease3SpExInfo">
+            <summary>
+            The ProductIncrease3SpEx item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SecilenleriSil1">
+            <summary>
+            The SecilenleriSil1 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SecilenleriSil1Info">
+            <summary>
+            The SecilenleriSil1 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SeciliUeruenleriSilmekUezeresiniz">
+            <summary>
+            The SeciliUeruenleriSilmekUezeresiniz item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SeciliUeruenleriSilmekUezeresinizInfo">
+            <summary>
+            The SeciliUeruenleriSilmekUezeresiniz item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.ButtonTagSil">
+            <summary>
+            The ButtonTagSil item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.ButtonTagSilInfo">
+            <summary>
+            The ButtonTagSil item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SpanTagTU">
+            <summary>
+            The SpanTagTU item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SpanTagTUInfo">
+            <summary>
+            The SpanTagTU item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.CıkışYap">
+            <summary>
+            The CıkışYap item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.CıkışYapInfo">
+            <summary>
+            The CıkışYap item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SepetinŞuAnBoş">
+            <summary>
+            The SepetinŞuAnBoş item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SepetinŞuAnBoşInfo">
+            <summary>
+            The SepetinŞuAnBoş item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.ContinueStepBtn">
+            <summary>
+            The ContinueStepBtn item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.ContinueStepBtnInfo">
+            <summary>
+            The ContinueStepBtn item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SecilenleriSil2">
+            <summary>
+            The SecilenleriSil2 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SecilenleriSil2Info">
+            <summary>
+            The SecilenleriSil2 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SfAccount3m2O">
+            <summary>
+            The SfAccount3m2O item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SfAccount3m2OInfo">
+            <summary>
+            The SfAccount3m2O item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.SidebarContent1fiE">
+            <summary>
+            The SidebarContent1fiE folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimAppFolder.BreadCrumb1ugPj">
+            <summary>
+            The BreadCrumb1ugPj folder.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder">
+            <summary>
+            The SidebarContent1fiEFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SidebarContent1fiE  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.SECİLENUERUENLER1">
+            <summary>
+            The SECİLENUERUENLER1 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.SECİLENUERUENLER1Info">
+            <summary>
+            The SECİLENUERUENLER1 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.Kargo">
+            <summary>
+            The Kargo item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.KargoInfo">
+            <summary>
+            The Kargo item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.UEruenler">
+            <summary>
+            The UEruenler item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.UEruenlerInfo">
+            <summary>
+            The UEruenler item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.SECİLENUERUENLER2">
+            <summary>
+            The SECİLENUERUENLER2 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.SECİLENUERUENLER2Info">
+            <summary>
+            The SECİLENUERUENLER2 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.Hesabım">
+            <summary>
+            The Hesabım item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.HesabımInfo">
+            <summary>
+            The Hesabım item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.SepetiniHepsiburadanınFırsatlarlaDolu">
+            <summary>
+            The SepetiniHepsiburadanınFırsatlarlaDolu item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.SepetiniHepsiburadanınFırsatlarlaDoluInfo">
+            <summary>
+            The SepetiniHepsiburadanınFırsatlarlaDolu item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.SomeSvgTag">
+            <summary>
+            The SomeSvgTag item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SidebarContent1fiEFolder.SomeSvgTagInfo">
+            <summary>
+            The SomeSvgTag item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder">
+            <summary>
+            The BreadCrumb1ugPjFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BreadCrumb1ugPj  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder.Teslimat">
+            <summary>
+            The Teslimat item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder.TeslimatInfo">
+            <summary>
+            The Teslimat item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder.OEdeme">
+            <summary>
+            The OEdeme item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder.OEdemeInfo">
+            <summary>
+            The OEdeme item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder.OEzet">
+            <summary>
+            The OEzet item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.BreadCrumb1ugPjFolder.OEzetInfo">
+            <summary>
+            The OEzet item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.ListemHepsiburadaAppFolder">
+            <summary>
+            The ListemHepsiburadaAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.ListemHepsiburadaAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ListemHepsiburada  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ListemHepsiburadaAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ListemHepsiburadaAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ListemHepsiburadaAppFolder.DeleteConfirmationModalTitle">
+            <summary>
+            The DeleteConfirmationModalTitle item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ListemHepsiburadaAppFolder.DeleteConfirmationModalTitleInfo">
+            <summary>
+            The DeleteConfirmationModalTitle item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ListemHepsiburadaAppFolder.DeleteConfirmationModalActionButton">
+            <summary>
+            The DeleteConfirmationModalActionButton item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ListemHepsiburadaAppFolder.DeleteConfirmationModalActionButtonInfo">
+            <summary>
+            The DeleteConfirmationModalActionButton item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ListemHepsiburadaAppFolder.MyListMain">
+            <summary>
+            The MyListMain folder.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.MyListMainFolder">
+            <summary>
+            The MyListMainFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MyListMain  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.SpanTagTU">
+            <summary>
+            The SpanTagTU item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.SpanTagTUInfo">
+            <summary>
+            The SpanTagTU item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.CıkışYap">
+            <summary>
+            The CıkışYap item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.CıkışYapInfo">
+            <summary>
+            The CıkışYap item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.Beğendiklerim">
+            <summary>
+            The Beğendiklerim item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.BeğendiklerimInfo">
+            <summary>
+            The Beğendiklerim item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.Beğendiklerim1">
+            <summary>
+            The Beğendiklerim1 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.Beğendiklerim1Info">
+            <summary>
+            The Beğendiklerim1 item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.Radio">
+            <summary>
+            The Radio item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.RadioInfo">
+            <summary>
+            The Radio item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.StickActionHeaderRemoveSelected">
+            <summary>
+            The StickActionHeaderRemoveSelected item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.StickActionHeaderRemoveSelectedInfo">
+            <summary>
+            The StickActionHeaderRemoveSelected item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.Duezenle">
+            <summary>
+            The Duezenle item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.DuezenleInfo">
+            <summary>
+            The Duezenle item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.UEruenSecildi">
+            <summary>
+            The UEruenSecildi item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.UEruenSecildiInfo">
+            <summary>
+            The UEruenSecildi item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.Radio1">
+            <summary>
+            The Radio1 item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.MyListMainFolder.Radio1Info">
+            <summary>
+            The Radio1 item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder">
+            <summary>
+            The DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DarkSentAhşapKuşEviYuvası14x13x17cm  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder.GoogleIleAramaYapınVeyaAdresYazın">
+            <summary>
+            The GoogleIleAramaYapınVeyaAdresYazın item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder.GoogleIleAramaYapınVeyaAdresYazınInfo">
+            <summary>
+            The GoogleIleAramaYapınVeyaAdresYazın item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder.Geri">
+            <summary>
+            The Geri item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder.GeriInfo">
+            <summary>
+            The Geri item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder">
+            <summary>
+            The ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ArdeppoMuhabbetKuşYuvasıSuerguelue  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder.MozillaCompositorWindowClass">
+            <summary>
+            The MozillaCompositorWindowClass item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder.MozillaCompositorWindowClassInfo">
+            <summary>
+            The MozillaCompositorWindowClass item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder.GoogleIleAramaYapınVeyaAdresYazın">
+            <summary>
+            The GoogleIleAramaYapınVeyaAdresYazın item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder.GoogleIleAramaYapınVeyaAdresYazınInfo">
+            <summary>
+            The GoogleIleAramaYapınVeyaAdresYazın item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.SunucuBulunamadıAppFolder">
+            <summary>
+            The SunucuBulunamadıAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.SunucuBulunamadıAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SunucuBulunamadı  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SunucuBulunamadıAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SunucuBulunamadıAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.TeslimatBilgileriMozillaFirefoxAppFolder">
+            <summary>
+            The TeslimatBilgileriMozillaFirefoxAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.TeslimatBilgileriMozillaFirefoxAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TeslimatBilgileriMozillaFirefox  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TeslimatBilgileriMozillaFirefoxAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TeslimatBilgileriMozillaFirefoxAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TeslimatBilgileriMozillaFirefoxAppFolder.Geri">
+            <summary>
+            The Geri item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.TeslimatBilgileriMozillaFirefoxAppFolder.GeriInfo">
+            <summary>
+            The Geri item info.
+            </summary>
+        </member>
+        <member name="T:TaskTest.TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder">
+            <summary>
+            The SepetimMozillaFirefoxAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskTest.TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SepetimMozillaFirefox  folder.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder.Separator">
+            <summary>
+            The Separator item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder.SeparatorInfo">
+            <summary>
+            The Separator item info.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder.GoogleIleAramaYapınVeyaAdresYazın">
+            <summary>
+            The GoogleIleAramaYapınVeyaAdresYazın item.
+            </summary>
+        </member>
+        <member name="P:TaskTest.TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder.GoogleIleAramaYapınVeyaAdresYazınInfo">
+            <summary>
+            The GoogleIleAramaYapınVeyaAdresYazın item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

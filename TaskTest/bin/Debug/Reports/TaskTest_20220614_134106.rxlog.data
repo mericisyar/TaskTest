@@ -1,0 +1,2134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.7m"
+		durationms="104118"
+		type="root"
+		rid="279d531f96cbb04"
+		totalerrorcount="0"
+		totalwarningcount="18"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="meric"
+		rxversion="10.1.7.0"
+		host="LAPTOP-O4TS480B"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1366x768"
+		timestamp="14.06.2022 13:41:06"
+		timestampiso="2022-06-14T10:41:06"
+		endtime="14.06.2022 13:42:50"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="1.7m"
+			durationms="100022"
+			type="test-suite"
+			rid="2892af8839affb4c"
+			totalerrorcount="0"
+			totalwarningcount="18"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="TaskTest"
+			headertext="TaskTest"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="1.7m"
+				durationms="99963"
+				type="test-case"
+				rid="2b1c9165aad51c5"
+				totalerrorcount="0"
+				totalwarningcount="18"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Case_4"
+				testcontainerid="716b4ab1-a57d-46ca-902e-2ef7562be63e"
+				headertext="Case_4"
+				displayName="Case_4"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="1.7m"
+					durationms="99921"
+					type="test-module"
+					rid="cde528b941c248"
+					totalerrorcount="0"
+					totalwarningcount="18"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording4"
+					displayName="Recording4"
+					moduleid="b2111495-35f7-42d6-93bc-74e3a91c6d9f"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.123"
+						timeRelativeToTestModuleStartTime="00:00.028"
+						timeWallClock="13:41:10"
+						time="00:00.123"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1.GirişYap' at 35;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[1]/?/?/div[@innertext='Giriş yap']"
+							itempath="div[2]/div/div/div[2]/div[1]/?/?/div[@innertext='Giriş yap']"
+							fullname="TaskTestRepository.ApplicationUnderTest.DivTag3GsvdTmLmWtmWX3ZOLPHU6FalseFals1.GirişYap"
+							id="a62f814284ec475f9308a4d60bcbdfe4"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.005"
+						timeRelativeToTestModuleStartTime="00:02.910"
+						timeWallClock="13:41:13"
+						time="00:03.005"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.TxtUserName' at 87;35.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='giris.hepsiburada.com']//input[#'txtUserName']"
+							itempath=".//input[#'txtUserName']"
+							fullname="TaskTestRepository.ApplicationUnderTest.TxtUserName"
+							id="678d4ba22acd4eacb0af4e12a3047142"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.837"
+						timeRelativeToTestModuleStartTime="00:03.742"
+						timeWallClock="13:41:14"
+						time="00:03.837"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'testtuser' with focus on 'ApplicationUnderTest.TxtUserName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='giris.hepsiburada.com']//input[#'txtUserName']"
+							itempath=".//input[#'txtUserName']"
+							fullname="TaskTestRepository.ApplicationUnderTest.TxtUserName"
+							id="678d4ba22acd4eacb0af4e12a3047142"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.469"
+						timeRelativeToTestModuleStartTime="00:04.374"
+						timeWallClock="13:41:14"
+						time="00:04.469"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'r15{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}gmail.com' with focus on 'ApplicationUnderTest.TxtUserName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='giris.hepsiburada.com']//input[#'txtUserName']"
+							itempath=".//input[#'txtUserName']"
+							fullname="TaskTestRepository.ApplicationUnderTest.TxtUserName"
+							id="678d4ba22acd4eacb0af4e12a3047142"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.173"
+						timeRelativeToTestModuleStartTime="00:05.078"
+						timeWallClock="13:41:15"
+						time="00:05.173"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.BtnLogin' at 170;29.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='giris.hepsiburada.com']//button[#'btnLogin']"
+							itempath=".//button[#'btnLogin']"
+							fullname="TaskTestRepository.ApplicationUnderTest.BtnLogin"
+							id="38cdc4ab774049d8891e881741789b2c"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.934"
+						timeRelativeToTestModuleStartTime="00:05.839"
+						timeWallClock="13:41:16"
+						time="00:05.934"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.TxtPassword' at 119;35.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='giris.hepsiburada.com']//form[#'frmNewLogin']//input[@id='txtPassword']"
+							itempath=".//form[#'frmNewLogin']//input[@id='txtPassword']"
+							fullname="TaskTestRepository.ApplicationUnderTest.TxtPassword"
+							id="c2bd32c0cb7b420aa72d5d606eccd785"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.272"
+						timeRelativeToTestModuleStartTime="00:07.177"
+						timeWallClock="13:41:17"
+						time="00:07.272"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'Testtuserr15.' with focus on 'ApplicationUnderTest'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='giris.hepsiburada.com']"
+							itempath="/dom[@domain='giris.hepsiburada.com']"
+							fullname="TaskTestRepository.ApplicationUnderTest.Self"
+							id="4ead135a6447411f9465ad67017902fc"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.770"
+						timeRelativeToTestModuleStartTime="00:07.675"
+						timeWallClock="13:41:18"
+						time="00:07.770"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.BtnEmailSelect' at 149;25.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='giris.hepsiburada.com']//button[#'btnEmailSelect']"
+							itempath=".//button[#'btnEmailSelect']"
+							fullname="TaskTestRepository.ApplicationUnderTest.BtnEmailSelect"
+							id="c5159169feb144e98ab8eda5b4d6e7cb"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="111"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.864"
+						timeRelativeToTestModuleStartTime="00:09.769"
+						timeWallClock="13:41:20"
+						time="00:09.864"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş1.Separator' at 48;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Türkiye''nin En Büyük Online']/toolbar[@accessiblename='Gezinme']/separator[1]"
+							itempath="toolbar[@accessiblename='Gezinme']/separator[1]"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş1.Separator"
+							id="a622ca0c996242f2bd3ca6510318af55"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="115"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.696"
+						timeRelativeToTestModuleStartTime="00:11.601"
+						timeWallClock="13:41:22"
+						time="00:11.696"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın' at 187;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Türkiye''nin En Büyük Online']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın"
+							id="aa766c79ab1d468e8e1160c744d22c43"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="119"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.228"
+						timeRelativeToTestModuleStartTime="00:12.133"
+						timeWallClock="13:41:22"
+						time="00:12.228"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Back}' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Türkiye''nin En Büyük Online']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın"
+							id="aa766c79ab1d468e8e1160c744d22c43"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="123"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.490"
+						timeRelativeToTestModuleStartTime="00:12.395"
+						timeWallClock="13:41:22"
+						time="00:12.490"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{RShiftKey down}/{RShiftKey up}ardeppo-' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="127"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:43.385"
+						timeRelativeToTestModuleStartTime="00:43.290"
+						timeWallClock="13:41:53"
+						time="00:43.385"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="128"
+							loglvl="Info"
+							itemindex="11">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:43.415"
+						timeRelativeToTestModuleStartTime="00:43.320"
+						timeWallClock="13:41:53"
+						time="00:43.415"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="128"
+							loglvl="Warn"
+							itemindex="11">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:43.641"
+						timeRelativeToTestModuleStartTime="00:43.546"
+						timeWallClock="13:41:54"
+						time="00:43.641"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'muhabbet-kus-yuvasi-surgulu' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="131"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:44.381"
+						timeRelativeToTestModuleStartTime="00:44.286"
+						timeWallClock="13:41:54"
+						time="00:44.381"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="132"
+							loglvl="Info"
+							itemindex="12">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:44.410"
+						timeRelativeToTestModuleStartTime="00:44.315"
+						timeWallClock="13:41:54"
+						time="00:44.410"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="132"
+							loglvl="Warn"
+							itemindex="12">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:45.031"
+						timeRelativeToTestModuleStartTime="00:44.936"
+						timeWallClock="13:41:55"
+						time="00:45.031"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '-plastik-folluk-ahsap-mdf-' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="135"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:45.844"
+						timeRelativeToTestModuleStartTime="00:45.749"
+						timeWallClock="13:41:56"
+						time="00:45.844"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="136"
+							loglvl="Info"
+							itemindex="13">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:45.876"
+						timeRelativeToTestModuleStartTime="00:45.781"
+						timeWallClock="13:41:56"
+						time="00:45.876"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="136"
+							loglvl="Warn"
+							itemindex="13">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.478"
+						timeRelativeToTestModuleStartTime="00:46.383"
+						timeWallClock="13:41:56"
+						time="00:46.478"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'yuvalik' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="139"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:47.165"
+						timeRelativeToTestModuleStartTime="00:47.070"
+						timeWallClock="13:41:57"
+						time="00:47.165"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="140"
+							loglvl="Info"
+							itemindex="14">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:47.190"
+						timeRelativeToTestModuleStartTime="00:47.095"
+						timeWallClock="13:41:57"
+						time="00:47.190"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="140"
+							loglvl="Warn"
+							itemindex="14">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:47.379"
+						timeRelativeToTestModuleStartTime="00:47.284"
+						timeWallClock="13:41:57"
+						time="00:47.379"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '-15' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="143"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.093"
+						timeRelativeToTestModuleStartTime="00:47.998"
+						timeWallClock="13:41:58"
+						time="00:48.093"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="144"
+							loglvl="Info"
+							itemindex="15">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.125"
+						timeRelativeToTestModuleStartTime="00:48.030"
+						timeWallClock="13:41:58"
+						time="00:48.125"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="144"
+							loglvl="Warn"
+							itemindex="15">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.221"
+						timeRelativeToTestModuleStartTime="00:48.126"
+						timeWallClock="13:41:58"
+						time="00:48.221"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '-cm' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="147"
+							itemindex="16"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.916"
+						timeRelativeToTestModuleStartTime="00:48.821"
+						timeWallClock="13:41:59"
+						time="00:48.916"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="148"
+							loglvl="Info"
+							itemindex="16">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.955"
+						timeRelativeToTestModuleStartTime="00:48.860"
+						timeWallClock="13:41:59"
+						time="00:48.955"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="148"
+							loglvl="Warn"
+							itemindex="16">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.056"
+						timeRelativeToTestModuleStartTime="00:48.961"
+						timeWallClock="13:41:59"
+						time="00:49.056"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '-x-x' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="151"
+							itemindex="17"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.770"
+						timeRelativeToTestModuleStartTime="00:49.675"
+						timeWallClock="13:42:00"
+						time="00:49.770"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="152"
+							loglvl="Info"
+							itemindex="17">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.808"
+						timeRelativeToTestModuleStartTime="00:49.713"
+						timeWallClock="13:42:00"
+						time="00:49.808"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="152"
+							loglvl="Warn"
+							itemindex="17">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.929"
+						timeRelativeToTestModuleStartTime="00:49.834"
+						timeWallClock="13:42:00"
+						time="00:49.929"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Back}' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="155"
+							itemindex="18"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:50.688"
+						timeRelativeToTestModuleStartTime="00:50.593"
+						timeWallClock="13:42:01"
+						time="00:50.688"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="156"
+							loglvl="Info"
+							itemindex="18">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:50.726"
+						timeRelativeToTestModuleStartTime="00:50.631"
+						timeWallClock="13:42:01"
+						time="00:50.726"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="156"
+							loglvl="Warn"
+							itemindex="18">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:50.786"
+						timeRelativeToTestModuleStartTime="00:50.691"
+						timeWallClock="13:42:01"
+						time="00:50.786"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '1' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="159"
+							itemindex="19"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.483"
+						timeRelativeToTestModuleStartTime="00:51.388"
+						timeWallClock="13:42:01"
+						time="00:51.483"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="160"
+							loglvl="Info"
+							itemindex="19">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.520"
+						timeRelativeToTestModuleStartTime="00:51.425"
+						timeWallClock="13:42:01"
+						time="00:51.520"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="160"
+							loglvl="Warn"
+							itemindex="19">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.577"
+						timeRelativeToTestModuleStartTime="00:51.482"
+						timeWallClock="13:42:02"
+						time="00:51.577"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '5' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="163"
+							itemindex="20"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:52.262"
+						timeRelativeToTestModuleStartTime="00:52.167"
+						timeWallClock="13:42:02"
+						time="00:52.262"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="164"
+							loglvl="Info"
+							itemindex="20">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:52.290"
+						timeRelativeToTestModuleStartTime="00:52.195"
+						timeWallClock="13:42:02"
+						time="00:52.290"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="164"
+							loglvl="Warn"
+							itemindex="20">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:52.342"
+						timeRelativeToTestModuleStartTime="00:52.247"
+						timeWallClock="13:42:02"
+						time="00:52.342"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '-cm-19-cm-yukseklik-p-HBV{Capital}000013{Capital}G{Capital}54{Capital}D' with focus on 'ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue.GoogleIleAramaYapınVeyaAdresYazın"
+							id="acbaade076fb4ae589e62e3c72ebfd56"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="167"
+							itemindex="21"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:53.038"
+						timeRelativeToTestModuleStartTime="00:52.943"
+						timeWallClock="13:42:03"
+						time="00:53.038"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GoogleIleAramaYapınVeyaAdresYazın' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="168"
+							loglvl="Info"
+							itemindex="21">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:53.069"
+						timeRelativeToTestModuleStartTime="00:52.974"
+						timeWallClock="13:42:03"
+						time="00:53.069"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'TaskTestRepository.ArdeppoMuhabbetKuşYuvasıSuerguelue'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							invertedPath="self::text[@accessiblename>'Google ile arama yapın veya']/parent::?/parent::?/parent::toolbar[@accessiblename='Gezinme']/parent::*"
+							basePathToCachedFolder="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							invertedBasePath="self::form[@title>'Ardeppo Muhabbet Kuş Yuvası']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="1"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="168"
+							loglvl="Warn"
+							itemindex="21">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:54.294"
+						timeRelativeToTestModuleStartTime="00:54.199"
+						timeWallClock="13:42:04"
+						time="00:54.294"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Return}' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Türkiye''nin En Büyük Online']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							itempath="toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın"
+							id="aa766c79ab1d468e8e1160c744d22c43"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="171"
+							itemindex="22"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:54.420"
+						timeRelativeToTestModuleStartTime="00:54.325"
+						timeWallClock="13:42:04"
+						time="00:54.420"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş' at 1359;627.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']"
+							itempath="/dom[@domain='www.hepsiburada.com']"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.Self"
+							id="b2bec1826b274e41821d9b92d40a3df5"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="175"
+							itemindex="23"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:54.868"
+						timeRelativeToTestModuleStartTime="00:54.773"
+						timeWallClock="13:42:05"
+						time="00:54.868"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş' at 1359;627.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']"
+							itempath="/dom[@domain='www.hepsiburada.com']"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.Self"
+							id="b2bec1826b274e41821d9b92d40a3df5"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="179"
+							itemindex="24"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:55.337"
+						timeRelativeToTestModuleStartTime="00:55.242"
+						timeWallClock="13:42:05"
+						time="00:55.337"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş' at 1359;627.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']"
+							itempath="/dom[@domain='www.hepsiburada.com']"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.Self"
+							id="b2bec1826b274e41821d9b92d40a3df5"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="183"
+							itemindex="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:55.953"
+						timeRelativeToTestModuleStartTime="00:55.858"
+						timeWallClock="13:42:06"
+						time="00:55.953"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.AddToCart' at 73;29.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']//button[#'addToCart']"
+							itempath=".//button[#'addToCart']"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.AddToCart"
+							id="c3fbddd3e99840d69ed333db520ca073"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="187"
+							itemindex="26"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:57.632"
+						timeRelativeToTestModuleStartTime="00:57.537"
+						timeWallClock="13:42:08"
+						time="00:57.632"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1358;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']/iframe[1]"
+							itempath="iframe[1]"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag"
+							id="591cd8f3754b439e85502fb54c30e71d"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="191"
+							itemindex="27"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:58.206"
+						timeRelativeToTestModuleStartTime="00:58.111"
+						timeWallClock="13:42:08"
+						time="00:58.206"
+						level="Warn"
+						category="Click">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="192"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:58.617"
+						timeRelativeToTestModuleStartTime="00:58.522"
+						timeWallClock="13:42:09"
+						time="00:58.617"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1358;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']/iframe[1]"
+							itempath="iframe[1]"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag"
+							id="591cd8f3754b439e85502fb54c30e71d"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="195"
+							itemindex="28"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:58.851"
+						timeRelativeToTestModuleStartTime="00:58.756"
+						timeWallClock="13:42:09"
+						time="00:58.851"
+						level="Warn"
+						category="Click">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="196"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.299"
+						timeRelativeToTestModuleStartTime="00:59.204"
+						timeWallClock="13:42:09"
+						time="00:59.299"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1358;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']/iframe[1]"
+							itempath="iframe[1]"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag"
+							id="591cd8f3754b439e85502fb54c30e71d"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="199"
+							itemindex="29"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.419"
+						timeRelativeToTestModuleStartTime="00:59.324"
+						timeWallClock="13:42:09"
+						time="00:59.419"
+						level="Warn"
+						category="Click">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="200"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.847"
+						timeRelativeToTestModuleStartTime="00:59.752"
+						timeWallClock="13:42:10"
+						time="00:59.847"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1360;3.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']/iframe[1]"
+							itempath="iframe[1]"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag"
+							id="591cd8f3754b439e85502fb54c30e71d"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="203"
+							itemindex="30"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:00.253"
+						timeRelativeToTestModuleStartTime="01:00.158"
+						timeWallClock="13:42:10"
+						time="01:00.253"
+						level="Warn"
+						category="Click">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="204"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:00.698"
+						timeRelativeToTestModuleStartTime="01:00.602"
+						timeWallClock="13:42:11"
+						time="01:00.698"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1360;3.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']/iframe[1]"
+							itempath="iframe[1]"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag"
+							id="591cd8f3754b439e85502fb54c30e71d"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="207"
+							itemindex="31"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:00.831"
+						timeRelativeToTestModuleStartTime="01:00.736"
+						timeWallClock="13:42:11"
+						time="01:00.831"
+						level="Warn"
+						category="Click">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="208"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:01.247"
+						timeRelativeToTestModuleStartTime="01:01.152"
+						timeWallClock="13:42:11"
+						time="01:01.247"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.HttpsCheckoutHepsiburadaComSepetim' at 82;32.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']/body/div[2]/div[2]/div[1]/div/div/div/div/div/div[2]/?/?/a[@href>'https://checkout.hepsibur']"
+							itempath="body/div[2]/div[2]/div[1]/div/div/div/div/div/div[2]/?/?/a[@href>'https://checkout.hepsibur']"
+							fullname="TaskTestRepository.TuerkiyeninEnBueyuekOnlineAlışveriş.HttpsCheckoutHepsiburadaComSepetim"
+							id="9481eb6ddc934710a13d4e2d7f2f1de3"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="211"
+							itemindex="32"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:02.012"
+						timeRelativeToTestModuleStartTime="01:01.917"
+						timeWallClock="13:42:12"
+						time="01:02.012"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SidebarContent1fiE.SECİLENUERUENLER1' at 69;4.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/span[1]//span[@innertext='SEÇİLEN ÜRÜNLER (1)']"
+							itempath="div[1]/div[1]/span[1]//span[@innertext='SEÇİLEN ÜRÜNLER (1)']"
+							fullname="TaskTestRepository.Sepetim.SidebarContent1fiE.SECİLENUERUENLER1"
+							id="d1011d06ae274da0946c9e35b3db09c3"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="215"
+							itemindex="33"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.428"
+						timeRelativeToTestModuleStartTime="01:04.333"
+						timeWallClock="13:42:14"
+						time="01:04.428"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim' at 1359;627.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']"
+							itempath="/dom[@domain='checkout.hepsiburada.com']"
+							fullname="TaskTestRepository.Sepetim.Self"
+							id="3cfeb93cd3084e98836a5b1b8f213800"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="219"
+							itemindex="34"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:05.407"
+						timeRelativeToTestModuleStartTime="01:05.312"
+						timeWallClock="13:42:15"
+						time="01:05.407"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim' at 1359;627.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']"
+							itempath="/dom[@domain='checkout.hepsiburada.com']"
+							fullname="TaskTestRepository.Sepetim.Self"
+							id="3cfeb93cd3084e98836a5b1b8f213800"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="223"
+							itemindex="35"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:05.874"
+						timeRelativeToTestModuleStartTime="01:05.779"
+						timeWallClock="13:42:16"
+						time="01:05.874"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim' at 1359;627.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']"
+							itempath="/dom[@domain='checkout.hepsiburada.com']"
+							fullname="TaskTestRepository.Sepetim.Self"
+							id="3cfeb93cd3084e98836a5b1b8f213800"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="227"
+							itemindex="36"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:06.324"
+						timeRelativeToTestModuleStartTime="01:06.229"
+						timeWallClock="13:42:16"
+						time="01:06.324"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim' at 1359;627.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']"
+							itempath="/dom[@domain='checkout.hepsiburada.com']"
+							fullname="TaskTestRepository.Sepetim.Self"
+							id="3cfeb93cd3084e98836a5b1b8f213800"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="231"
+							itemindex="37"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:06.789"
+						timeRelativeToTestModuleStartTime="01:06.694"
+						timeWallClock="13:42:17"
+						time="01:06.789"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.ProductIncrease3SpEx' at 15;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/div[3]/?/?/ul/li/div/div/div[1]/div[2]/div[4]/div[2]/div/a[1]"
+							itempath=".//section[#'onboarding_item_list']/div[3]/?/?/ul/li/div/div/div[1]/div[2]/div[4]/div[2]/div/a[1]"
+							fullname="TaskTestRepository.Sepetim.ProductIncrease3SpEx"
+							id="d5ddb5b481bf478b8d91feed2ca323a2"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="235"
+							itemindex="38"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:07.940"
+						timeRelativeToTestModuleStartTime="01:07.845"
+						timeWallClock="13:42:18"
+						time="01:07.940"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SidebarContent1fiE.Kargo' at 20;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[2]/div[1]/?/?/div[@innertext='Kargo']"
+							itempath="div[2]/div[1]/?/?/div[@innertext='Kargo']"
+							fullname="TaskTestRepository.Sepetim.SidebarContent1fiE.Kargo"
+							id="90a0403cc5f5443491f8c90f85054820"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="239"
+							itemindex="39"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:08.740"
+						timeRelativeToTestModuleStartTime="01:08.645"
+						timeWallClock="13:42:19"
+						time="01:08.740"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SidebarContent1fiE.UEruenler' at 19;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[2]/div[1]/?/?/div[@innertext='Ürünler']"
+							itempath="div[2]/div[1]/?/?/div[@innertext='Ürünler']"
+							fullname="TaskTestRepository.Sepetim.SidebarContent1fiE.UEruenler"
+							id="c99a17a56a924f7d821483cf00552d22"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="243"
+							itemindex="40"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:10.239"
+						timeRelativeToTestModuleStartTime="01:10.144"
+						timeWallClock="13:42:20"
+						time="01:10.239"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SidebarContent1fiE.Kargo' at 26;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[2]/div[1]/?/?/div[@innertext='Kargo']"
+							itempath="div[2]/div[1]/?/?/div[@innertext='Kargo']"
+							fullname="TaskTestRepository.Sepetim.SidebarContent1fiE.Kargo"
+							id="90a0403cc5f5443491f8c90f85054820"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="247"
+							itemindex="41"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:11.403"
+						timeRelativeToTestModuleStartTime="01:11.308"
+						timeWallClock="13:42:21"
+						time="01:11.403"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SidebarContent1fiE.SECİLENUERUENLER1' at 62;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/span[1]//span[@innertext='SEÇİLEN ÜRÜNLER (1)']"
+							itempath="div[1]/div[1]/span[1]//span[@innertext='SEÇİLEN ÜRÜNLER (1)']"
+							fullname="TaskTestRepository.Sepetim.SidebarContent1fiE.SECİLENUERUENLER1"
+							id="d1011d06ae274da0946c9e35b3db09c3"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="251"
+							itemindex="42"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:12.335"
+						timeRelativeToTestModuleStartTime="01:12.240"
+						timeWallClock="13:42:22"
+						time="01:12.335"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SidebarContent1fiE.UEruenler' at 29;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[2]/div[1]/?/?/div[@innertext='Ürünler']"
+							itempath="div[2]/div[1]/?/?/div[@innertext='Ürünler']"
+							fullname="TaskTestRepository.Sepetim.SidebarContent1fiE.UEruenler"
+							id="c99a17a56a924f7d821483cf00552d22"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="255"
+							itemindex="43"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:13.078"
+						timeRelativeToTestModuleStartTime="01:12.983"
+						timeWallClock="13:42:23"
+						time="01:13.078"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim' at 1358;628.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']"
+							itempath="/dom[@domain='checkout.hepsiburada.com']"
+							fullname="TaskTestRepository.Sepetim.Self"
+							id="3cfeb93cd3084e98836a5b1b8f213800"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="259"
+							itemindex="44"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:13.531"
+						timeRelativeToTestModuleStartTime="01:13.436"
+						timeWallClock="13:42:23"
+						time="01:13.531"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim' at 1358;628.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']"
+							itempath="/dom[@domain='checkout.hepsiburada.com']"
+							fullname="TaskTestRepository.Sepetim.Self"
+							id="3cfeb93cd3084e98836a5b1b8f213800"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="263"
+							itemindex="45"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:13.981"
+						timeRelativeToTestModuleStartTime="01:13.886"
+						timeWallClock="13:42:24"
+						time="01:13.981"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim' at 1358;628.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']"
+							itempath="/dom[@domain='checkout.hepsiburada.com']"
+							fullname="TaskTestRepository.Sepetim.Self"
+							id="3cfeb93cd3084e98836a5b1b8f213800"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="267"
+							itemindex="46"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:14.448"
+						timeRelativeToTestModuleStartTime="01:14.353"
+						timeWallClock="13:42:24"
+						time="01:14.448"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim' at 1358;628.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']"
+							itempath="/dom[@domain='checkout.hepsiburada.com']"
+							fullname="TaskTestRepository.Sepetim.Self"
+							id="3cfeb93cd3084e98836a5b1b8f213800"
+							timeout="30000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="271"
+							itemindex="47"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:14.904"
+						timeRelativeToTestModuleStartTime="01:14.809"
+						timeWallClock="13:42:25"
+						time="01:14.904"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.ProductIncrease3SpEx' at 20;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/div[3]/?/?/ul/li/div/div/div[1]/div[2]/div[4]/div[2]/div/a[1]"
+							itempath=".//section[#'onboarding_item_list']/div[3]/?/?/ul/li/div/div/div[1]/div[2]/div[4]/div[2]/div/a[1]"
+							fullname="TaskTestRepository.Sepetim.ProductIncrease3SpEx"
+							id="d5ddb5b481bf478b8d91feed2ca323a2"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="275"
+							itemindex="48"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:16.032"
+						timeRelativeToTestModuleStartTime="01:15.937"
+						timeWallClock="13:42:26"
+						time="01:16.032"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SidebarContent1fiE.SECİLENUERUENLER1' at 42;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[1]/div[1]/span[1]//span[@innertext='SEÇİLEN ÜRÜNLER (1)']"
+							itempath="div[1]/div[1]/span[1]//span[@innertext='SEÇİLEN ÜRÜNLER (1)']"
+							fullname="TaskTestRepository.Sepetim.SidebarContent1fiE.SECİLENUERUENLER1"
+							id="d1011d06ae274da0946c9e35b3db09c3"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="279"
+							itemindex="49"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:16.880"
+						timeRelativeToTestModuleStartTime="01:16.785"
+						timeWallClock="13:42:27"
+						time="01:16.880"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SidebarContent1fiE.Kargo' at 12;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[2]/div[1]/?/?/div[@innertext='Kargo']"
+							itempath="div[2]/div[1]/?/?/div[@innertext='Kargo']"
+							fullname="TaskTestRepository.Sepetim.SidebarContent1fiE.Kargo"
+							id="90a0403cc5f5443491f8c90f85054820"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="283"
+							itemindex="50"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:18.345"
+						timeRelativeToTestModuleStartTime="01:18.250"
+						timeWallClock="13:42:28"
+						time="01:18.345"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SidebarContent1fiE.UEruenler' at 15;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[2]/div[1]/?/?/div[@innertext='Ürünler']"
+							itempath="div[2]/div[1]/?/?/div[@innertext='Ürünler']"
+							fullname="TaskTestRepository.Sepetim.SidebarContent1fiE.UEruenler"
+							id="c99a17a56a924f7d821483cf00552d22"
+							timeout="90000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="287"
+							itemindex="51"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:19.178"
+						timeRelativeToTestModuleStartTime="01:19.083"
+						timeWallClock="13:42:29"
+						time="01:19.178"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SecilenleriSil1' at 59;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/?/?/div[@innertext='Seçilenleri sil (1)']"
+							itempath=".//section[#'onboarding_item_list']/?/?/div[@innertext='Seçilenleri sil (1)']"
+							fullname="TaskTestRepository.Sepetim.SecilenleriSil1"
+							id="37a091e5a6d245a08299f02297c1beaf"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="291"
+							itemindex="52"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:19.926"
+						timeRelativeToTestModuleStartTime="01:19.831"
+						timeWallClock="13:42:30"
+						time="01:19.926"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SeciliUeruenleriSilmekUezeresiniz' at 228;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/div[2]/div[3]//h1[@innertext>'Seçili ürünleri silmek üz']"
+							itempath=".//section[#'onboarding_item_list']/div[2]/div[3]//h1[@innertext>'Seçili ürünleri silmek üz']"
+							fullname="TaskTestRepository.Sepetim.SeciliUeruenleriSilmekUezeresiniz"
+							id="9aee8df235ef4e559c99f403b74b42c4"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="295"
+							itemindex="53"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:20.744"
+						timeRelativeToTestModuleStartTime="01:20.649"
+						timeWallClock="13:42:31"
+						time="01:20.744"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.ButtonTagSil' at 75;23.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/div[2]/div[3]//button[@innertext='Sil']"
+							itempath=".//section[#'onboarding_item_list']/div[2]/div[3]//button[@innertext='Sil']"
+							fullname="TaskTestRepository.Sepetim.ButtonTagSil"
+							id="0e718f9d373b44f88648feff8e225d84"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="299"
+							itemindex="54"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:21.599"
+						timeRelativeToTestModuleStartTime="01:21.504"
+						timeWallClock="13:42:32"
+						time="01:21.599"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SepetinŞuAnBoş' at 607;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]/?/?/h1[@innertext='Sepetin şu an boş']"
+							itempath=".//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]/?/?/h1[@innertext='Sepetin şu an boş']"
+							fullname="TaskTestRepository.Sepetim.SepetinŞuAnBoş"
+							id="bdbc126497a14332883f287fc90e50d7"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="303"
+							itemindex="55"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:22.809"
+						timeRelativeToTestModuleStartTime="01:22.714"
+						timeWallClock="13:42:33"
+						time="01:22.809"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SepetinŞuAnBoş' at 608;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]/?/?/h1[@innertext='Sepetin şu an boş']"
+							itempath=".//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]/?/?/h1[@innertext='Sepetin şu an boş']"
+							fullname="TaskTestRepository.Sepetim.SepetinŞuAnBoş"
+							id="bdbc126497a14332883f287fc90e50d7"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="307"
+							itemindex="56"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:23.523"
+						timeRelativeToTestModuleStartTime="01:23.428"
+						timeWallClock="13:42:33"
+						time="01:23.523"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SpanTagTU' at 22;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[1]/div/div/div/div/div/div/div/div[4]/div[2]//span[@innertext='TU']"
+							itempath=".//div[#'app']/div/div/div[1]/div/div/div/div/div/div/div/div[4]/div[2]//span[@innertext='TU']"
+							fullname="TaskTestRepository.Sepetim.SpanTagTU"
+							id="a4d33b94d7c743489b1a1d5ae287198d"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="311"
+							itemindex="57"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:24.456"
+						timeRelativeToTestModuleStartTime="01:24.361"
+						timeWallClock="13:42:34"
+						time="01:24.456"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.CıkışYap' at 43;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[1]/div/div/div/div/div/div/div/div[4]/div[2]/div/div[2]/div[2]/ul/li[2]/a[@innertext='Çıkış']"
+							itempath=".//div[#'app']/div/div/div[1]/div/div/div/div/div/div/div/div[4]/div[2]/div/div[2]/div[2]/ul/li[2]/a[@innertext='Çıkış']"
+							fullname="TaskTestRepository.Sepetim.CıkışYap"
+							id="39dabc164abd41f0b19b26a349a217d9"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="315"
+							itemindex="58"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:25.472"
+						timeRelativeToTestModuleStartTime="01:25.377"
+						timeWallClock="13:42:35"
+						time="01:25.472"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SepetinŞuAnBoş' at 570;24.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]/?/?/h1[@innertext='Sepetin şu an boş']"
+							itempath=".//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]/?/?/h1[@innertext='Sepetin şu an boş']"
+							fullname="TaskTestRepository.Sepetim.SepetinŞuAnBoş"
+							id="bdbc126497a14332883f287fc90e50d7"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="319"
+							itemindex="59"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:25.803"
+						timeRelativeToTestModuleStartTime="01:25.708"
+						timeWallClock="13:42:36"
+						time="01:25.803"
+						level="Warn"
+						category="Automation">
+						<message>
+							Could not get a valid element rectangle from '{H1Tag:}', since the element is no longer valid.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="320"
+							loglvl="Warn"
+							itemindex="59">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:26.184"
+						timeRelativeToTestModuleStartTime="01:26.089"
+						timeWallClock="13:42:36"
+						time="01:26.184"
+						level="Warn"
+						category="Automation">
+						<message>
+							Could not get a valid element rectangle from '{H1Tag:}', since the element is no longer valid.
+						</message>
+						<metainfo
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="320"
+							loglvl="Warn"
+							itemindex="59">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:26.304"
+						timeRelativeToTestModuleStartTime="01:26.209"
+						timeWallClock="13:42:36"
+						time="01:26.304"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SepetinŞuAnBoş' at 650;23.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]/?/?/h1[@innertext='Sepetin şu an boş']"
+							itempath=".//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]/?/?/h1[@innertext='Sepetin şu an boş']"
+							fullname="TaskTestRepository.Sepetim.SepetinŞuAnBoş"
+							id="bdbc126497a14332883f287fc90e50d7"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="323"
+							itemindex="60"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:28.335"
+						timeRelativeToTestModuleStartTime="01:28.240"
+						timeWallClock="13:42:38"
+						time="01:28.335"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.SfAccount3m2O' at 12;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[1]/div/div/div/div/div/div/div/div[4]/div[2]/div/div/div/div/div/div/i"
+							itempath=".//div[#'app']/div/div/div[1]/div/div/div/div/div/div/div/div[4]/div[2]/div/div/div/div/div/div/i"
+							fullname="TaskTestRepository.Sepetim.SfAccount3m2O"
+							id="41381ab5925744c4b67787f3cc2c760e"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="327"
+							itemindex="61"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:30.001"
+						timeRelativeToTestModuleStartTime="01:29.906"
+						timeWallClock="13:42:40"
+						time="01:30.001"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Sepetim.GirişYap' at 62;21.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[1]/div/div/div/div/div/div/div/div[4]/div[2]/div/div[2]/div[1]/ul/li[2]/a[@innertext='Giriş yap']"
+							itempath=".//div[#'app']/div/div/div[1]/div/div/div/div/div/div/div/div[4]/div[2]/div/div[2]/div[1]/ul/li[2]/a[@innertext='Giriş yap']"
+							fullname="TaskTestRepository.Sepetim.GirişYap"
+							id="667c6ccad84f4854ac20a37f104a5c77"
+							timeout="60000"
+							codefile="c:\Users\meric\OneDrive\Belgeler\Ranorex\RanorexStudio Projects\TaskTest\TaskTest\Recording4.cs"
+							codeline="331"
+							itemindex="62"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -441,7 +441,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		id="b2bec182-6b27-4e41-821d-9b92d40a3df5"
 		isrooted="True"
 		name="TuerkiyeninEnBueyuekOnlineAlışveriş"
-		refimgid="9be1a261-aa72-4ae8-9f25-395501b323ad"
+		refimgid="5e313a95-2f42-4212-8f49-77cc07cf3947"
 		refpath="/dom[@domain='www.hepsiburada.com']"
 		searchtimeout="30000ms"
 		usecache="False">
@@ -640,6 +640,28 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			robustPath="/dom[@domain='www.hepsiburada.com']//div[#'container']//svg"
 			searchtimeout="30000ms">
 				/dom[@domain='www.hepsiburada.com']//div[#'container']/div/div/div[3]/div[6]/div/div/div/div/div[2]/div[1]/?/?/a[@title='Hepsiburada']/svg
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="12d9a148-6ffe-4405-9e87-ec39eca528cb"
+			name="HttpsTpcGooglesyndicationComSimgad"
+			refimgid="86f82c28-9117-463c-ab00-c00d05050736"
+			refpath="/dom[@domain='www.hepsiburada.com']/body/div[2]/div[1]/div/div/div/div/div/div/div/div[2]/div/div/iframe/body/div[2]/a/div/div/img[@src='https://tpc.googlesyndication.com/simgad/11355947151455245600?']"
+			robustPath="/dom[@domain='www.hepsiburada.com']//iframe[@name='']//img[@src='https://tpc.googlesyndication.com/simgad/11355947151455245600?']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']/body/div[2]/div[1]/div/div/div/div/div/div/div/div[2]//iframe[@name='']/body/div[2]/a[@href&gt;'https://adclick.g.doublec']//img[@src='https://tpc.googlesyndication.com/simgad/11355947151455245600?']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="5597dd37-fbb2-46a5-84a7-57376947e6f1"
+			name="SfOldHeaderEfZwOcqyx8rd3l1YQFzg"
+			refimgid="1b517669-36bc-46d3-b2f5-96c6475a1cec"
+			refpath="/dom[@domain='www.hepsiburada.com']/body/div[2]/div[2]/div[1]/div/div/div/div/div"
+			robustPath="/dom[@domain='www.hepsiburada.com']/body/div[2]/div[2]/div[1]/div/div/div/div/div"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']/body/div[2]/div[2]/div[1]/div/div/div/div/div
 			</item>
 			<basepath>
 				/dom[@domain='www.hepsiburada.com']
@@ -953,6 +975,28 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div/div/div[4]/div[2]/div/div/div/div/?/?/span[@innertext='Hesabım']
 				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="c2dad51f-c3df-4dcd-9f34-f3e8a64cf7c6"
+				name="SepetiniHepsiburadanınFırsatlarlaDolu"
+				refimgid="5816571a-b786-4cfd-ad05-24b2e2928712"
+				refpath="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[2]/div/div[2]/div[2]/p[@innertext>'Sepetini Hepsiburada’nın fırsatlarla']"
+				robustPath="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div"
+				searchtimeout="30000ms">
+					/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div[2]/?/?/p[@innertext&gt;'Sepetini Hepsiburada&#8217;n&#305;n f&#305;rsatlarla']
+				</item>
+				<item
+				addcaps="unknown,webelement,svgtag"
+				capname="svgtag"
+				id="489e46e3-3664-4bd4-af3f-076eb7fac6e6"
+				name="SomeSvgTag"
+				refimgid="fb9117cd-0697-4f46-a805-8aee1b54cdb7"
+				refpath="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[1]/div/div/div/div/div/div/div/div[1]/div/a/svg"
+				robustPath="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div"
+				searchtimeout="30000ms">
+					/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div/div/div/div[1]/?/?/a[@title='Hepsiburada']/svg
+				</item>
 				<basepath>
 					/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[3]/div/div
 				</basepath>
@@ -1194,6 +1238,17 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[2]/div[2]/div[2]/header/div[1]/div/div[1]/div/div[2]/p[@innertext='Ürün Seçildi']
 				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="d50f6780-4616-443c-81a4-775c61bb3787"
+				name="Radio1"
+				refimgid="63e9cee5-4354-48dd-8247-e47476a396b8"
+				refpath="/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[2]/div[2]/div[2]/div[5]/div[2]/div/ul/div/div/div/a/div[1]/label/input[@type='radio']"
+				robustPath="/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div"
+				searchtimeout="30000ms">
+					/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[2]/div[2]/div[2]/div[5]//ul//a[@title&gt;'Bluerain Apple &#304;phone &#350;arj']/div[1]/?/?/input[@type='radio']
+				</item>
 				<basepath>
 					/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div
 				</basepath>
@@ -1250,6 +1305,179 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</item>
 			<basepath>
 				/form[@title&gt;'DarkSent Ah&#351;ap Ku&#351; Evi Yuvas&#305;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALqSURBVDhPlZNrSJNhFMffz5VldI+iyIgyiZXp
+8tpsTjedypahDjR1dE8yu33o+qGLRrKKoojKIosoYkIlScYs9iGCWhBh0WW6LNOwmYGVtffX2Rxd
+v9QfDud9zsv/xznnfV7lX6T2mh3qB7M3fPw/qd3GSvxm6DWjvjM5wuW/xaWJGpxTpoaPP6S2p/np
+NkJPFnRJ7jCUhl/9FLsnatTjo/3UjytVTyc6uJq0K1T3xOp4tAC8OnhjGAyfHtVnctCRpwmZg1K3
+TvayfyzqkQl+Tsym/2imoyHuhcNd1OJ9uLGetjPb4FkqvBSQdxG8yBBIthdvXqTCiuhSqqbDrklQ
+OwZOjWKgfiZu23VupHZxM/ktt3If4Du7Hh4lQmsaPM0QoIzTLuOoxRonK6PFLIDzk+HKVAnJ16N4
+d66YpvxWrmW34XeVwJMUuLcQ7gvgiRH1ebpT+ZaT5KFYA9uj4LJAGiW3zKbdaad571VOWj5zxujn
+kvkuPIwHdxI0Z8pzBoHHJpfyJUG2a9USgqyIpv/iLPbk32JzYSfbS/qoLujnYFYPh7StcCcGmuLg
+gngeJBNwm13KQJzJRaa0ZhGIbR6+mkTKUpsps3pYbntG1ZI2dqY/p1Z7WzqcBXWJqOcXoTanEGjI
+dSk945fVkZwOBpktR5ZUEcOx8i0UpjViy2rBbnBTGX+H+/ZyqI5FPZAMF+MInNMTOGWpUzqHbtD1
+RRVBgnzjNNmwUbqxz+V2QQm1hn049DU8tVilFgubJPbOh8NaBnZY+LqvQBe6B6+HV7g+xSxGjTdB
+knQTBAXHypaF5clFCu5oicxeLEtck8CnshwJmzNkDso7Yl2kL2Kt5/20Ir7Nyx0EBTtK0Q/C9DKe
+IZVAuo6P8Vb6tGUef97SyLB9UCHIsAqXb5SdnmmFfIy2MjA3h6+x2fTPMdM7YzFd48rpHrnW5Z+y
+7nfzr+oYUlUaAkWspn34SolVvIqooGNopbNzyMY/fiRF+Q7XeQwrhL8REgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="14ce38c0-5dea-4665-a48b-eaa345d85c82"
+		isrooted="True"
+		name="ArdeppoMuhabbetKuşYuvasıSuerguelue"
+		refpath="/form[@title='Ardeppo Muhabbet Kuş Yuvası - Sürgülü - Plastik Folluk Fiyatı — Mozilla Firefox']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="b22a8102-eebe-45bd-86f8-ce84f8661bc9"
+			name="MozillaCompositorWindowClass"
+			refimgid="0d0e64ae-8004-4197-a9aa-6b2e3a920cb9"
+			refpath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/element[@class='MozillaCompositorWindowClass']"
+			robustPath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/element[@class='MozillaCompositorWindowClass']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Ardeppo Muhabbet Ku&#351; Yuvas&#305;']/element[@class='MozillaCompositorWindowClass']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="acbaade0-76fb-4ae5-89e6-2e3c72ebfd56"
+			name="GoogleIleAramaYapınVeyaAdresYazın"
+			refimgid="5541a69e-397c-4b9b-9100-6c5b06fb7222"
+			refpath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']/toolbar[@accessiblename='Gezinme']/combobox/text[@accessiblename>'Google ile arama yapın veya']"
+			robustPath="/form[@title>'Ardeppo Muhabbet Kuş Yuvası']//text[@accessiblename>'Google ile arama yapın veya']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Ardeppo Muhabbet Ku&#351; Yuvas&#305;']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename&gt;'Google ile arama yap&#305;n veya']
+			</item>
+			<basepath>
+				/form[@title&gt;'Ardeppo Muhabbet Ku&#351; Yuvas&#305;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALqSURBVDhPlZNrSJNhFMffz5VldI+iyIgyiZXp
+8tpsTjedypahDjR1dE8yu33o+qGLRrKKoojKIosoYkIlScYs9iGCWhBh0WW6LNOwmYGVtffX2Rxd
+v9QfDud9zsv/xznnfV7lX6T2mh3qB7M3fPw/qd3GSvxm6DWjvjM5wuW/xaWJGpxTpoaPP6S2p/np
+NkJPFnRJ7jCUhl/9FLsnatTjo/3UjytVTyc6uJq0K1T3xOp4tAC8OnhjGAyfHtVnctCRpwmZg1K3
+TvayfyzqkQl+Tsym/2imoyHuhcNd1OJ9uLGetjPb4FkqvBSQdxG8yBBIthdvXqTCiuhSqqbDrklQ
+OwZOjWKgfiZu23VupHZxM/ktt3If4Du7Hh4lQmsaPM0QoIzTLuOoxRonK6PFLIDzk+HKVAnJ16N4
+d66YpvxWrmW34XeVwJMUuLcQ7gvgiRH1ebpT+ZaT5KFYA9uj4LJAGiW3zKbdaad571VOWj5zxujn
+kvkuPIwHdxI0Z8pzBoHHJpfyJUG2a9USgqyIpv/iLPbk32JzYSfbS/qoLujnYFYPh7StcCcGmuLg
+gngeJBNwm13KQJzJRaa0ZhGIbR6+mkTKUpsps3pYbntG1ZI2dqY/p1Z7WzqcBXWJqOcXoTanEGjI
+dSk945fVkZwOBpktR5ZUEcOx8i0UpjViy2rBbnBTGX+H+/ZyqI5FPZAMF+MInNMTOGWpUzqHbtD1
+RRVBgnzjNNmwUbqxz+V2QQm1hn049DU8tVilFgubJPbOh8NaBnZY+LqvQBe6B6+HV7g+xSxGjTdB
+knQTBAXHypaF5clFCu5oicxeLEtck8CnshwJmzNkDso7Yl2kL2Kt5/20Ir7Nyx0EBTtK0Q/C9DKe
+IZVAuo6P8Vb6tGUef97SyLB9UCHIsAqXb5SdnmmFfIy2MjA3h6+x2fTPMdM7YzFd48rpHrnW5Z+y
+7nfzr+oYUlUaAkWspn34SolVvIqooGNopbNzyMY/fiRF+Q7XeQwrhL8REgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="0b5a17c0-6ee5-4b6e-9c9e-a4dd267face4"
+		isrooted="True"
+		name="SunucuBulunamadı"
+		refpath="/dom[@domain='www.hepsiburada.comhttps']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.hepsiburada.comhttps']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e9780a83-c7f0-4351-8dae-63f4bdf77e52"
+		isrooted="True"
+		name="TeslimatBilgileriMozillaFirefox"
+		refpath="/form[@title='Teslimat Bilgileri — Mozilla Firefox']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ff09f421-c22b-457d-a87a-ec27e5edb3ec"
+			name="Geri"
+			refimgid="cda4f48c-4665-4f83-82c6-3010bb4002d8"
+			refpath="/form[@title>'Teslimat Bilgileri — Mozilla']/toolbar[@accessiblename='Gezinme']/button[@accessiblename='Geri']"
+			robustPath="/form[@title>'Teslimat Bilgileri — Mozilla']/?/?/button[@accessiblename='Geri']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Teslimat Bilgileri &#8212; Mozilla']/?/?/button[@accessiblename='Geri']
+			</item>
+			<basepath>
+				/form[@title&gt;'Teslimat Bilgileri &#8212; Mozilla']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALqSURBVDhPlZNrSJNhFMffz5VldI+iyIgyiZXp
+8tpsTjedypahDjR1dE8yu33o+qGLRrKKoojKIosoYkIlScYs9iGCWhBh0WW6LNOwmYGVtffX2Rxd
+v9QfDud9zsv/xznnfV7lX6T2mh3qB7M3fPw/qd3GSvxm6DWjvjM5wuW/xaWJGpxTpoaPP6S2p/np
+NkJPFnRJ7jCUhl/9FLsnatTjo/3UjytVTyc6uJq0K1T3xOp4tAC8OnhjGAyfHtVnctCRpwmZg1K3
+TvayfyzqkQl+Tsym/2imoyHuhcNd1OJ9uLGetjPb4FkqvBSQdxG8yBBIthdvXqTCiuhSqqbDrklQ
+OwZOjWKgfiZu23VupHZxM/ktt3If4Du7Hh4lQmsaPM0QoIzTLuOoxRonK6PFLIDzk+HKVAnJ16N4
+d66YpvxWrmW34XeVwJMUuLcQ7gvgiRH1ebpT+ZaT5KFYA9uj4LJAGiW3zKbdaad571VOWj5zxujn
+kvkuPIwHdxI0Z8pzBoHHJpfyJUG2a9USgqyIpv/iLPbk32JzYSfbS/qoLujnYFYPh7StcCcGmuLg
+gngeJBNwm13KQJzJRaa0ZhGIbR6+mkTKUpsps3pYbntG1ZI2dqY/p1Z7WzqcBXWJqOcXoTanEGjI
+dSk945fVkZwOBpktR5ZUEcOx8i0UpjViy2rBbnBTGX+H+/ZyqI5FPZAMF+MInNMTOGWpUzqHbtD1
+RRVBgnzjNNmwUbqxz+V2QQm1hn049DU8tVilFgubJPbOh8NaBnZY+LqvQBe6B6+HV7g+xSxGjTdB
+knQTBAXHypaF5clFCu5oicxeLEtck8CnshwJmzNkDso7Yl2kL2Kt5/20Ir7Nyx0EBTtK0Q/C9DKe
+IZVAuo6P8Vb6tGUef97SyLB9UCHIsAqXb5SdnmmFfIy2MjA3h6+x2fTPMdM7YzFd48rpHrnW5Z+y
+7nfzr+oYUlUaAkWspn34SolVvIqooGNopbNzyMY/fiRF+Q7XeQwrhL8REgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="fa80ce11-c36b-4f4e-ad70-43817d374ad7"
+		isrooted="True"
+		name="SepetimMozillaFirefox"
+		refpath="/form[@title='Sepetim — Mozilla Firefox']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="separator,accessible"
+			capname="separator"
+			id="7820a8a0-f4a8-4065-8f05-b3f9ad68c2dd"
+			name="Separator"
+			refimgid="938b696c-d24c-4d25-8cab-9bed3bc7ab86"
+			refpath="/form[@title='Sepetim — Mozilla Firefox']/toolbar[@accessiblename='Gezinme']/separator[1]"
+			robustPath="/form[@title='Sepetim — Mozilla Firefox']/toolbar[@accessiblename='Gezinme']/separator[1]"
+			searchtimeout="30000ms">
+				/form[@title='Sepetim — Mozilla Firefox']/toolbar[@accessiblename='Gezinme']/separator[1]
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="94727156-7a76-48ec-9747-2840516d833b"
+			name="GoogleIleAramaYapınVeyaAdresYazın"
+			refimgid="101d6dbc-c980-4458-8795-699bc7e147c7"
+			refpath="/form[@title='Sepetim — Mozilla Firefox']/toolbar[@accessiblename='Gezinme']/combobox/text[@accessiblename>'Google ile arama yapın veya']"
+			robustPath="/form[@title='Sepetim — Mozilla Firefox']//text[@accessiblename>'Google ile arama yapın veya']"
+			searchtimeout="30000ms">
+				/form[@title='Sepetim &#8212; Mozilla Firefox']/toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename&gt;'Google ile arama yap&#305;n veya']
+			</item>
+			<basepath>
+				/form[@title='Sepetim — Mozilla Firefox']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx

@@ -35,6 +35,10 @@ namespace TaskTest
         TaskTestRepositoryFolders.SepetimAppFolder _sepetim;
         TaskTestRepositoryFolders.ListemHepsiburadaAppFolder _listemhepsiburada;
         TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder _darksentahşapkuşeviyuvası14x13x17cm;
+        TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder _ardeppomuhabbetkuşyuvasısuerguelue;
+        TaskTestRepositoryFolders.SunucuBulunamadıAppFolder _sunucubulunamadı;
+        TaskTestRepositoryFolders.TeslimatBilgileriMozillaFirefoxAppFolder _teslimatbilgilerimozillafirefox;
+        TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder _sepetimmozillafirefox;
 
         /// <summary>
         /// Gets the singleton class instance representing the TaskTestRepository element repository.
@@ -59,6 +63,10 @@ namespace TaskTest
             _sepetim = new TaskTestRepositoryFolders.SepetimAppFolder(this);
             _listemhepsiburada = new TaskTestRepositoryFolders.ListemHepsiburadaAppFolder(this);
             _darksentahşapkuşeviyuvası14x13x17cm = new TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder(this);
+            _ardeppomuhabbetkuşyuvasısuerguelue = new TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder(this);
+            _sunucubulunamadı = new TaskTestRepositoryFolders.SunucuBulunamadıAppFolder(this);
+            _teslimatbilgilerimozillafirefox = new TaskTestRepositoryFolders.TeslimatBilgileriMozillaFirefoxAppFolder(this);
+            _sepetimmozillafirefox = new TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder(this);
         }
 
 #region Variables
@@ -147,6 +155,42 @@ namespace TaskTest
         public virtual TaskTestRepositoryFolders.DarkSentAhşapKuşEviYuvası14x13x17cmAppFolder DarkSentAhşapKuşEviYuvası14x13x17cm
         {
             get { return _darksentahşapkuşeviyuvası14x13x17cm; }
+        }
+
+        /// <summary>
+        /// The ArdeppoMuhabbetKuşYuvasıSuerguelue folder.
+        /// </summary>
+        [RepositoryFolder("14ce38c0-5dea-4665-a48b-eaa345d85c82")]
+        public virtual TaskTestRepositoryFolders.ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder ArdeppoMuhabbetKuşYuvasıSuerguelue
+        {
+            get { return _ardeppomuhabbetkuşyuvasısuerguelue; }
+        }
+
+        /// <summary>
+        /// The SunucuBulunamadı folder.
+        /// </summary>
+        [RepositoryFolder("0b5a17c0-6ee5-4b6e-9c9e-a4dd267face4")]
+        public virtual TaskTestRepositoryFolders.SunucuBulunamadıAppFolder SunucuBulunamadı
+        {
+            get { return _sunucubulunamadı; }
+        }
+
+        /// <summary>
+        /// The TeslimatBilgileriMozillaFirefox folder.
+        /// </summary>
+        [RepositoryFolder("e9780a83-c7f0-4351-8dae-63f4bdf77e52")]
+        public virtual TaskTestRepositoryFolders.TeslimatBilgileriMozillaFirefoxAppFolder TeslimatBilgileriMozillaFirefox
+        {
+            get { return _teslimatbilgilerimozillafirefox; }
+        }
+
+        /// <summary>
+        /// The SepetimMozillaFirefox folder.
+        /// </summary>
+        [RepositoryFolder("fa80ce11-c36b-4f4e-ad70-43817d374ad7")]
+        public virtual TaskTestRepositoryFolders.SepetimMozillaFirefoxAppFolder SepetimMozillaFirefox
+        {
+            get { return _sepetimmozillafirefox; }
         }
     }
 
@@ -1181,6 +1225,8 @@ namespace TaskTest
             RepoItemInfo _cıkışyapInfo;
             RepoItemInfo _loginInfo;
             RepoItemInfo _somesvgtag1Info;
+            RepoItemInfo _httpstpcgooglesyndicationcomsimgadInfo;
+            RepoItemInfo _sfoldheaderefzwocqyx8rd3l1yqfzgInfo;
 
             /// <summary>
             /// Creates a new TuerkiyeninEnBueyuekOnlineAlışveriş  folder.
@@ -1206,6 +1252,8 @@ namespace TaskTest
                 _cıkışyapInfo = new RepoItemInfo(this, "CıkışYap", ".//div[#'myAccount']//ul/?/?/a[@innertext='Çıkış Yap']", ".//div[#'myAccount']//a[@innertext='Çıkış Yap']", 30000, null, "22a026db-d449-43ff-b055-dbca68ee7d23");
                 _loginInfo = new RepoItemInfo(this, "Login", ".//a[#'login']", ".//a[#'login']", 30000, null, "f74b012a-cb2f-42ef-aa77-af225700222e");
                 _somesvgtag1Info = new RepoItemInfo(this, "SomeSvgTag1", ".//div[#'container']/div/div/div[3]/div[6]/div/div/div/div/div[2]/div[1]/?/?/a[@title='Hepsiburada']/svg", ".//div[#'container']//svg", 30000, null, "e12a316b-ceb9-4399-bf11-7f3ecf1fd84b");
+                _httpstpcgooglesyndicationcomsimgadInfo = new RepoItemInfo(this, "HttpsTpcGooglesyndicationComSimgad", "body/div[2]/div[1]/div/div/div/div/div/div/div/div[2]//iframe[@name='']/body/div[2]/a[@href>'https://adclick.g.doublec']//img[@src='https://tpc.googlesyndication.com/simgad/11355947151455245600?']", ".//iframe[@name='']//img[@src='https://tpc.googlesyndication.com/simgad/11355947151455245600?']", 30000, null, "12d9a148-6ffe-4405-9e87-ec39eca528cb");
+                _sfoldheaderefzwocqyx8rd3l1yqfzgInfo = new RepoItemInfo(this, "SfOldHeaderEfZwOcqyx8rd3l1YQFzg", "body/div[2]/div[2]/div[1]/div/div/div/div/div", "body/div[2]/div[2]/div[1]/div/div/div/div/div", 30000, null, "5597dd37-fbb2-46a5-84a7-57376947e6f1");
             }
 
             /// <summary>
@@ -1661,6 +1709,54 @@ namespace TaskTest
                 get
                 {
                     return _somesvgtag1Info;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsTpcGooglesyndicationComSimgad item.
+            /// </summary>
+            [RepositoryItem("12d9a148-6ffe-4405-9e87-ec39eca528cb")]
+            public virtual Ranorex.ImgTag HttpsTpcGooglesyndicationComSimgad
+            {
+                get
+                {
+                    return _httpstpcgooglesyndicationcomsimgadInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsTpcGooglesyndicationComSimgad item info.
+            /// </summary>
+            [RepositoryItemInfo("12d9a148-6ffe-4405-9e87-ec39eca528cb")]
+            public virtual RepoItemInfo HttpsTpcGooglesyndicationComSimgadInfo
+            {
+                get
+                {
+                    return _httpstpcgooglesyndicationcomsimgadInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SfOldHeaderEfZwOcqyx8rd3l1YQFzg item.
+            /// </summary>
+            [RepositoryItem("5597dd37-fbb2-46a5-84a7-57376947e6f1")]
+            public virtual Ranorex.DivTag SfOldHeaderEfZwOcqyx8rd3l1YQFzg
+            {
+                get
+                {
+                    return _sfoldheaderefzwocqyx8rd3l1yqfzgInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SfOldHeaderEfZwOcqyx8rd3l1YQFzg item info.
+            /// </summary>
+            [RepositoryItemInfo("5597dd37-fbb2-46a5-84a7-57376947e6f1")]
+            public virtual RepoItemInfo SfOldHeaderEfZwOcqyx8rd3l1YQFzgInfo
+            {
+                get
+                {
+                    return _sfoldheaderefzwocqyx8rd3l1yqfzgInfo;
                 }
             }
         }
@@ -2274,6 +2370,8 @@ namespace TaskTest
             RepoItemInfo _ueruenlerInfo;
             RepoItemInfo _secİlenueruenler2Info;
             RepoItemInfo _hesabımInfo;
+            RepoItemInfo _sepetinihepsiburadanınfırsatlarladoluInfo;
+            RepoItemInfo _somesvgtagInfo;
 
             /// <summary>
             /// Creates a new SidebarContent1fiE  folder.
@@ -2286,6 +2384,8 @@ namespace TaskTest
                 _ueruenlerInfo = new RepoItemInfo(this, "UEruenler", "div[2]/div[1]/?/?/div[@innertext='Ürünler']", "", 30000, null, "c99a17a5-6a92-4f7d-8214-83cf00552d22");
                 _secİlenueruenler2Info = new RepoItemInfo(this, "SECİLENUERUENLER2", "div[1]/div[1]/span[1]//span[@innertext='SEÇİLEN ÜRÜNLER (2)']", "", 30000, null, "0ce20606-f056-466c-9927-6adf2b6fa360");
                 _hesabımInfo = new RepoItemInfo(this, "Hesabım", "div/div/div[4]/div[2]/div/div/div/div/?/?/span[@innertext='Hesabım']", "", 30000, null, "2ec5eddc-f225-429c-a314-f4f3453a0b86");
+                _sepetinihepsiburadanınfırsatlarladoluInfo = new RepoItemInfo(this, "SepetiniHepsiburadanınFırsatlarlaDolu", "div[2]/?/?/p[@innertext>'Sepetini Hepsiburada’nın fırsatlarla']", "", 30000, null, "c2dad51f-c3df-4dcd-9f34-f3e8a64cf7c6");
+                _somesvgtagInfo = new RepoItemInfo(this, "SomeSvgTag", "div/div/div[1]/?/?/a[@title='Hepsiburada']/svg", "", 30000, null, "489e46e3-3664-4bd4-af3f-076eb7fac6e6");
             }
 
             /// <summary>
@@ -2429,6 +2529,54 @@ namespace TaskTest
                 get
                 {
                     return _hesabımInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SepetiniHepsiburadanınFırsatlarlaDolu item.
+            /// </summary>
+            [RepositoryItem("c2dad51f-c3df-4dcd-9f34-f3e8a64cf7c6")]
+            public virtual Ranorex.PTag SepetiniHepsiburadanınFırsatlarlaDolu
+            {
+                get
+                {
+                    return _sepetinihepsiburadanınfırsatlarladoluInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SepetiniHepsiburadanınFırsatlarlaDolu item info.
+            /// </summary>
+            [RepositoryItemInfo("c2dad51f-c3df-4dcd-9f34-f3e8a64cf7c6")]
+            public virtual RepoItemInfo SepetiniHepsiburadanınFırsatlarlaDoluInfo
+            {
+                get
+                {
+                    return _sepetinihepsiburadanınfırsatlarladoluInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeSvgTag item.
+            /// </summary>
+            [RepositoryItem("489e46e3-3664-4bd4-af3f-076eb7fac6e6")]
+            public virtual Ranorex.SvgTag SomeSvgTag
+            {
+                get
+                {
+                    return _somesvgtagInfo.CreateAdapter<Ranorex.SvgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeSvgTag item info.
+            /// </summary>
+            [RepositoryItemInfo("489e46e3-3664-4bd4-af3f-076eb7fac6e6")]
+            public virtual RepoItemInfo SomeSvgTagInfo
+            {
+                get
+                {
+                    return _somesvgtagInfo;
                 }
             }
         }
@@ -2668,6 +2816,7 @@ namespace TaskTest
             RepoItemInfo _stickactionheaderremoveselectedInfo;
             RepoItemInfo _duezenleInfo;
             RepoItemInfo _ueruensecildiInfo;
+            RepoItemInfo _radio1Info;
 
             /// <summary>
             /// Creates a new MyListMain  folder.
@@ -2683,6 +2832,7 @@ namespace TaskTest
                 _stickactionheaderremoveselectedInfo = new RepoItemInfo(this, "StickActionHeaderRemoveSelected", "div[2]/div[2]/div[2]/header/div[1]//button[@id='StickActionHeader-RemoveSelected']", "", 30000, null, "921339dd-cc0d-4c8a-b2cd-f1554d310683");
                 _duezenleInfo = new RepoItemInfo(this, "Duezenle", "div[2]/div[2]/div[2]/header/div[1]//button[@innertext='Düzenle']", "div[2]/div[2]/div[2]/header/div[1]/div/div/div/div/button[@innertext='Düzenle']", 30000, null, "0c6f8735-b919-4bf9-8c6e-92471792426b");
                 _ueruensecildiInfo = new RepoItemInfo(this, "UEruenSecildi", "div[2]/div[2]/div[2]/header/div[1]/div/div[1]/div/div[2]/p[@innertext='Ürün Seçildi']", "div[2]/div[2]/div[2]/header/div[1]/div/div[1]/div/div[2]/p[@innertext='Ürün Seçildi']", 30000, null, "79ae0273-0b9c-49d1-901b-279726adb295");
+                _radio1Info = new RepoItemInfo(this, "Radio1", "div[2]/div[2]/div[2]/div[5]//ul//a[@title>'Bluerain Apple İphone Şarj']/div[1]/?/?/input[@type='radio']", "", 30000, null, "d50f6780-4616-443c-81a4-775c61bb3787");
             }
 
             /// <summary>
@@ -2900,6 +3050,30 @@ namespace TaskTest
                     return _ueruensecildiInfo;
                 }
             }
+
+            /// <summary>
+            /// The Radio1 item.
+            /// </summary>
+            [RepositoryItem("d50f6780-4616-443c-81a4-775c61bb3787")]
+            public virtual Ranorex.InputTag Radio1
+            {
+                get
+                {
+                    return _radio1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Radio1 item info.
+            /// </summary>
+            [RepositoryItemInfo("d50f6780-4616-443c-81a4-775c61bb3787")]
+            public virtual RepoItemInfo Radio1Info
+            {
+                get
+                {
+                    return _radio1Info;
+                }
+            }
         }
 
         /// <summary>
@@ -2990,6 +3164,296 @@ namespace TaskTest
                 get
                 {
                     return _geriInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("14ce38c0-5dea-4665-a48b-eaa345d85c82")]
+        public partial class ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _mozillacompositorwindowclassInfo;
+            RepoItemInfo _googleilearamayapınveyaadresyazınInfo;
+
+            /// <summary>
+            /// Creates a new ArdeppoMuhabbetKuşYuvasıSuerguelue  folder.
+            /// </summary>
+            public ArdeppoMuhabbetKuşYuvasıSuerguelueAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ArdeppoMuhabbetKuşYuvasıSuerguelue", "/form[@title>'Ardeppo Muhabbet Kuş Yuvası']", parentFolder, 30000, null, true, "14ce38c0-5dea-4665-a48b-eaa345d85c82", "")
+            {
+                _mozillacompositorwindowclassInfo = new RepoItemInfo(this, "MozillaCompositorWindowClass", "element[@class='MozillaCompositorWindowClass']", "element[@class='MozillaCompositorWindowClass']", 30000, null, "b22a8102-eebe-45bd-86f8-ce84f8661bc9");
+                _googleilearamayapınveyaadresyazınInfo = new RepoItemInfo(this, "GoogleIleAramaYapınVeyaAdresYazın", "toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']", ".//text[@accessiblename>'Google ile arama yapın veya']", 30000, null, "acbaade0-76fb-4ae5-89e6-2e3c72ebfd56");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("14ce38c0-5dea-4665-a48b-eaa345d85c82")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("14ce38c0-5dea-4665-a48b-eaa345d85c82")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MozillaCompositorWindowClass item.
+            /// </summary>
+            [RepositoryItem("b22a8102-eebe-45bd-86f8-ce84f8661bc9")]
+            public virtual Ranorex.Unknown MozillaCompositorWindowClass
+            {
+                get
+                {
+                    return _mozillacompositorwindowclassInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MozillaCompositorWindowClass item info.
+            /// </summary>
+            [RepositoryItemInfo("b22a8102-eebe-45bd-86f8-ce84f8661bc9")]
+            public virtual RepoItemInfo MozillaCompositorWindowClassInfo
+            {
+                get
+                {
+                    return _mozillacompositorwindowclassInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GoogleIleAramaYapınVeyaAdresYazın item.
+            /// </summary>
+            [RepositoryItem("acbaade0-76fb-4ae5-89e6-2e3c72ebfd56")]
+            public virtual Ranorex.Text GoogleIleAramaYapınVeyaAdresYazın
+            {
+                get
+                {
+                    return _googleilearamayapınveyaadresyazınInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GoogleIleAramaYapınVeyaAdresYazın item info.
+            /// </summary>
+            [RepositoryItemInfo("acbaade0-76fb-4ae5-89e6-2e3c72ebfd56")]
+            public virtual RepoItemInfo GoogleIleAramaYapınVeyaAdresYazınInfo
+            {
+                get
+                {
+                    return _googleilearamayapınveyaadresyazınInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SunucuBulunamadıAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("0b5a17c0-6ee5-4b6e-9c9e-a4dd267face4")]
+        public partial class SunucuBulunamadıAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new SunucuBulunamadı  folder.
+            /// </summary>
+            public SunucuBulunamadıAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SunucuBulunamadı", "/dom[@domain='www.hepsiburada.comhttps']", parentFolder, 30000, null, false, "0b5a17c0-6ee5-4b6e-9c9e-a4dd267face4", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("0b5a17c0-6ee5-4b6e-9c9e-a4dd267face4")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("0b5a17c0-6ee5-4b6e-9c9e-a4dd267face4")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The TeslimatBilgileriMozillaFirefoxAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("e9780a83-c7f0-4351-8dae-63f4bdf77e52")]
+        public partial class TeslimatBilgileriMozillaFirefoxAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _geriInfo;
+
+            /// <summary>
+            /// Creates a new TeslimatBilgileriMozillaFirefox  folder.
+            /// </summary>
+            public TeslimatBilgileriMozillaFirefoxAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("TeslimatBilgileriMozillaFirefox", "/form[@title>'Teslimat Bilgileri — Mozilla']", parentFolder, 30000, null, true, "e9780a83-c7f0-4351-8dae-63f4bdf77e52", "")
+            {
+                _geriInfo = new RepoItemInfo(this, "Geri", "?/?/button[@accessiblename='Geri']", "?/?/button[@accessiblename='Geri']", 30000, null, "ff09f421-c22b-457d-a87a-ec27e5edb3ec");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e9780a83-c7f0-4351-8dae-63f4bdf77e52")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e9780a83-c7f0-4351-8dae-63f4bdf77e52")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Geri item.
+            /// </summary>
+            [RepositoryItem("ff09f421-c22b-457d-a87a-ec27e5edb3ec")]
+            public virtual Ranorex.Button Geri
+            {
+                get
+                {
+                    return _geriInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Geri item info.
+            /// </summary>
+            [RepositoryItemInfo("ff09f421-c22b-457d-a87a-ec27e5edb3ec")]
+            public virtual RepoItemInfo GeriInfo
+            {
+                get
+                {
+                    return _geriInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SepetimMozillaFirefoxAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("fa80ce11-c36b-4f4e-ad70-43817d374ad7")]
+        public partial class SepetimMozillaFirefoxAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _separatorInfo;
+            RepoItemInfo _googleilearamayapınveyaadresyazınInfo;
+
+            /// <summary>
+            /// Creates a new SepetimMozillaFirefox  folder.
+            /// </summary>
+            public SepetimMozillaFirefoxAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SepetimMozillaFirefox", "/form[@title='Sepetim — Mozilla Firefox']", parentFolder, 30000, null, true, "fa80ce11-c36b-4f4e-ad70-43817d374ad7", "")
+            {
+                _separatorInfo = new RepoItemInfo(this, "Separator", "toolbar[@accessiblename='Gezinme']/separator[1]", "toolbar[@accessiblename='Gezinme']/separator[1]", 30000, null, "7820a8a0-f4a8-4065-8f05-b3f9ad68c2dd");
+                _googleilearamayapınveyaadresyazınInfo = new RepoItemInfo(this, "GoogleIleAramaYapınVeyaAdresYazın", "toolbar[@accessiblename='Gezinme']/?/?/text[@accessiblename>'Google ile arama yapın veya']", ".//text[@accessiblename>'Google ile arama yapın veya']", 30000, null, "94727156-7a76-48ec-9747-2840516d833b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("fa80ce11-c36b-4f4e-ad70-43817d374ad7")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("fa80ce11-c36b-4f4e-ad70-43817d374ad7")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Separator item.
+            /// </summary>
+            [RepositoryItem("7820a8a0-f4a8-4065-8f05-b3f9ad68c2dd")]
+            public virtual Ranorex.Separator Separator
+            {
+                get
+                {
+                    return _separatorInfo.CreateAdapter<Ranorex.Separator>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Separator item info.
+            /// </summary>
+            [RepositoryItemInfo("7820a8a0-f4a8-4065-8f05-b3f9ad68c2dd")]
+            public virtual RepoItemInfo SeparatorInfo
+            {
+                get
+                {
+                    return _separatorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GoogleIleAramaYapınVeyaAdresYazın item.
+            /// </summary>
+            [RepositoryItem("94727156-7a76-48ec-9747-2840516d833b")]
+            public virtual Ranorex.Text GoogleIleAramaYapınVeyaAdresYazın
+            {
+                get
+                {
+                    return _googleilearamayapınveyaadresyazınInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GoogleIleAramaYapınVeyaAdresYazın item info.
+            /// </summary>
+            [RepositoryItemInfo("94727156-7a76-48ec-9747-2840516d833b")]
+            public virtual RepoItemInfo GoogleIleAramaYapınVeyaAdresYazınInfo
+            {
+                get
+                {
+                    return _googleilearamayapınveyaadresyazınInfo;
                 }
             }
         }

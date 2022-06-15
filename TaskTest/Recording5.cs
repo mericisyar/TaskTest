@@ -112,49 +112,49 @@ namespace TaskTest
             repo.ApplicationUnderTest.BtnEmailSelect.Click("149;25");
             Delay.Milliseconds(1460);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın' at 187;16.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(8));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın.Click("187;16");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın' at 401;14.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(8));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.Click("401;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(9));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("{Back}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın'.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(9));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("{Back}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'https{RShiftKey down}:{RShiftKey up}{RShiftKey down}//{RShiftKey up}www.' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(10));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("https{RShiftKey down}:{RShiftKey up}{RShiftKey down}//{RShiftKey up}www.");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'https{RShiftKey down}://{RShiftKey up}h' with focus on 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın'.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(10));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("https{RShiftKey down}://{RShiftKey up}h");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'hepsiburada.com' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(11));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("hepsiburada.com");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'epsiburada.com{RShiftKey down}/{RShiftKey up}Bluea' with focus on 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın'.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(11));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("epsiburada.com{RShiftKey down}/{RShiftKey up}Bluea");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{RShiftKey down}/{RShiftKey up}darksent' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(12));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("{RShiftKey down}/{RShiftKey up}darksent");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın'.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(12));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("{Back}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '-ahsap-kus-evi-yuvas' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(13));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("-ahsap-kus-evi-yuvas");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'rain-apple-iphone-' with focus on 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın'.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(13));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("rain-apple-iphone-");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'i' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(14));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("i");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'sarj-aleti-seti-kablo-ve-adaptor-iphone-6-s-7-8-plus-x-xr-xs-se-11-12-13-pro-max-p-' with focus on 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın'.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(14));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("sarj-aleti-seti-kablo-ve-adaptor-iphone-6-s-7-8-plus-x-xr-xs-se-11-12-13-pro-max-p-");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '-14x13x17cm-p-HBCV{Capital}000028{Capital}C{Capital}5{Capital}N{Capital}9' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(15));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("-14x13x17cm-p-HBCV{Capital}000028{Capital}C{Capital}5{Capital}N{Capital}9");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'HBCV{Capital}000000' with focus on 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın'.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(15));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("HBCV{Capital}000000");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '7W5' with focus on 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın'.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(16));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("7W5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'I' with focus on 'SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın'.", repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(17));
+            repo.SepetimMozillaFirefox.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("I");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın'.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazınInfo, new RecordItemIndex(18));
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş1.GoogleIleAramaYapınVeyaAdresYazın.PressKeys("{Return}");
             Delay.Milliseconds(1380);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1362;627.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(17));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1362;627");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1362;627.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(18));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1362;627");
-            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1362;627.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(19));
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1362;627");
@@ -168,32 +168,32 @@ namespace TaskTest
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1362;627");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.CustomerAccountLike2wPzH' at 16;13.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.CustomerAccountLike2wPzHInfo, new RecordItemIndex(22));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.CustomerAccountLike2wPzH.Click("16;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1362;627.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(22));
+            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1362;627");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1359;5.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(23));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1359;5");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1362;627.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(23));
+            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1362;627");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1359;5.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(24));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1359;5");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.CustomerAccountLike2wPzH' at 9;13.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.CustomerAccountLike2wPzHInfo, new RecordItemIndex(24));
+            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.CustomerAccountLike2wPzH.Click("9;13");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1359;5.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(25));
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1359;5");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.ProductName' at 296;30.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.ProductNameInfo, new RecordItemIndex(26));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.ProductName.Click("296;30");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1359;5.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(26));
+            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1359;5");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1359;5.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(27));
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1359;5");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1359;5.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(28));
-            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1359;5");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.ProductName' at 296;30.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.ProductNameInfo, new RecordItemIndex(28));
+            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.ProductName.Click("296;30");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1359;5.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(29));
@@ -208,65 +208,73 @@ namespace TaskTest
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1359;5");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccount' at 132;23.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccountInfo, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1359;5.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(32));
+            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1359;5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag' at 1359;5.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTagInfo, new RecordItemIndex(33));
+            repo.TuerkiyeninEnBueyuekOnlineAlışveriş.SomeIFrameTag.Click("1359;5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccount' at 132;23.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccountInfo, new RecordItemIndex(34));
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccount.Click("132;23");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.Beğendiklerim' at 83;3.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.BeğendiklerimInfo, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.Beğendiklerim' at 83;3.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.BeğendiklerimInfo, new RecordItemIndex(35));
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.Beğendiklerim.Click("83;3");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.Beğendiklerim' at 60;7.", repo.ListemHepsiburada.MyListMain.BeğendiklerimInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.Beğendiklerim' at 60;7.", repo.ListemHepsiburada.MyListMain.BeğendiklerimInfo, new RecordItemIndex(36));
             repo.ListemHepsiburada.MyListMain.Beğendiklerim.Click("60;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.Duezenle' at 74;19.", repo.ListemHepsiburada.MyListMain.DuezenleInfo, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.Duezenle' at 74;19.", repo.ListemHepsiburada.MyListMain.DuezenleInfo, new RecordItemIndex(37));
             repo.ListemHepsiburada.MyListMain.Duezenle.Click("74;19");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.Radio' at 8;9.", repo.ListemHepsiburada.MyListMain.RadioInfo, new RecordItemIndex(36));
-            repo.ListemHepsiburada.MyListMain.Radio.Click("8;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.Radio1' at 13;11.", repo.ListemHepsiburada.MyListMain.Radio1Info, new RecordItemIndex(38));
+            repo.ListemHepsiburada.MyListMain.Radio1.Click("13;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.UEruenSecildi' at 53;11.", repo.ListemHepsiburada.MyListMain.UEruenSecildiInfo, new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.UEruenSecildi' at 53;11.", repo.ListemHepsiburada.MyListMain.UEruenSecildiInfo, new RecordItemIndex(39));
             repo.ListemHepsiburada.MyListMain.UEruenSecildi.Click("53;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.StickActionHeaderRemoveSelected' at 28;20.", repo.ListemHepsiburada.MyListMain.StickActionHeaderRemoveSelectedInfo, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.StickActionHeaderRemoveSelected' at 28;20.", repo.ListemHepsiburada.MyListMain.StickActionHeaderRemoveSelectedInfo, new RecordItemIndex(40));
             repo.ListemHepsiburada.MyListMain.StickActionHeaderRemoveSelected.Click("28;20");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.DeleteConfirmationModalTitle' at 152;22.", repo.ListemHepsiburada.DeleteConfirmationModalTitleInfo, new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.DeleteConfirmationModalTitle' at 152;22.", repo.ListemHepsiburada.DeleteConfirmationModalTitleInfo, new RecordItemIndex(41));
             repo.ListemHepsiburada.DeleteConfirmationModalTitle.Click("152;22");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.DeleteConfirmationModalActionButton' at 55;22.", repo.ListemHepsiburada.DeleteConfirmationModalActionButtonInfo, new RecordItemIndex(40));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.DeleteConfirmationModalActionButton' at 55;22.", repo.ListemHepsiburada.DeleteConfirmationModalActionButtonInfo, new RecordItemIndex(42));
             repo.ListemHepsiburada.DeleteConfirmationModalActionButton.Click("55;22");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.Beğendiklerim1' at 74;9.", repo.ListemHepsiburada.MyListMain.Beğendiklerim1Info, new RecordItemIndex(41));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.Beğendiklerim1' at 74;9.", repo.ListemHepsiburada.MyListMain.Beğendiklerim1Info, new RecordItemIndex(43));
             repo.ListemHepsiburada.MyListMain.Beğendiklerim1.Click("74;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.SpanTagTU' at 26;18.", repo.ListemHepsiburada.MyListMain.SpanTagTUInfo, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.SpanTagTU' at 26;18.", repo.ListemHepsiburada.MyListMain.SpanTagTUInfo, new RecordItemIndex(44));
             repo.ListemHepsiburada.MyListMain.SpanTagTU.Click("26;18");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.CıkışYap' at 40;6.", repo.ListemHepsiburada.MyListMain.CıkışYapInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ListemHepsiburada.MyListMain.CıkışYap' at 40;6.", repo.ListemHepsiburada.MyListMain.CıkışYapInfo, new RecordItemIndex(45));
             repo.ListemHepsiburada.MyListMain.CıkışYap.Click("40;6");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccount' at 32;27.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccountInfo, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccount' at 32;27.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccountInfo, new RecordItemIndex(46));
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccount.Click("32;27");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccount' at 32;27.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccountInfo, new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccount' at 32;27.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccountInfo, new RecordItemIndex(47));
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.MyAccount.Click("32;27");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.Login' at 42;3.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.LoginInfo, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TuerkiyeninEnBueyuekOnlineAlışveriş.Login' at 42;3.", repo.TuerkiyeninEnBueyuekOnlineAlışveriş.LoginInfo, new RecordItemIndex(48));
             repo.TuerkiyeninEnBueyuekOnlineAlışveriş.Login.Click("42;3");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(2400);
             
         }
 
